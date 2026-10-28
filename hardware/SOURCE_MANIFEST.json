@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "status": "candidate; redistribution rights pending confirmation",
+  "files": [
+    {
+      "source": "PRNG371_FPGA/hls_src/prng_top.cpp",
+      "destination": "hardware/prng371_hls/prng_top.cpp",
+      "source_sha256": "b4c0faf2275479e7ce493a40f1ad6844c968d049c32a217f4bfdb19376ece738",
+      "destination_sha256": "01d8f0205f6e1642b840a2c3b794381b0309d305c31ab385b65d1f2458144820",
+      "transformation": "byte-exact copy; maintainer comment added (submission candidate)",
+      "rights": "pending confirmation"
+    },
+    {
+      "source": "PRNG371_FPGA/hls_src/prng_top.h",
+      "destination": "hardware/prng371_hls/prng_top.h",
+      "source_sha256": "6cbb22224a1d3d0c2063f144dd3308a2d7b1a18d08fd8c956897983179535897",
+      "destination_sha256": "282cb7c84be4baddb3d37ee5f182b92a3cba86522272fde4921c9a3159ec0172",
+      "transformation": "byte-exact copy; maintainer comment added (submission candidate)",
+      "rights": "pending confirmation"
+    },
+    {
+      "source": "PRNG371_FPGA/hls_src/chaos_core.h",
+      "destination": "hardware/prng371_hls/chaos_core.h",
+      "source_sha256": "58344c380645bf5b2dce0e582ff37bb76d22cc8c4a510afc3c851f85791f70fb",
+      "destination_sha256": "ed5b344eac017a387a5d680475500515130cc0c9cc9961c4c8e91897a2786de1",
+      "transformation": "byte-exact copy; maintainer comment added (submission candidate)",
+      "rights": "pending confirmation"
+    },
+    {
+      "source": "PRNG371_FPGA/hls_src/chaos_params.h",
+      "destination": "hardware/prng371_hls/chaos_params.h",
+      "source_sha256": "67c7251424726305e13aac3e98f017c05293706af392083f4abd1b7b6e680381",
+      "destination_sha256": "2e663f58bfa749082a44649ecccf6487268ba72a8e59d02e2e340d9faa655735",
+      "transformation": "byte-exact copy; maintainer comment added (submission candidate)",
+      "rights": "pending confirmation"
+    },
+    {
+      "source": "PRNG371_FPGA/hls_src/shift_mul.h",
+      "destination": "hardware/prng371_hls/shift_mul.h",
+      "source_sha256": "44b6440b9179e42135563a331148a6a54d1d24d2006f5fdf70daf52393968958",
+      "destination_sha256": "ce38684ad8e274253d5bb6bc4461c86fb49ba8283713041f9f1c1c43c5e840c6",
+      "transformation": "byte-exact copy; maintainer comment added (submission candidate)",
+      "rights": "pending confirmation"
+    },
+    {
+      "source": "PRNG371_FPGA/hls_src/tb_prng_371.cpp",
+      "destination": "hardware/prng371_hls/tb_prng_371.cpp",
+      "source_sha256": "3fd5dee8b270dd98e7354ef36487329243de02f6118e7380520572b7d95298aa",
+      "destination_sha256": "7960b9700e0d9302d377fea27e9c55be28751ab927d52d881427f867f79004eb",
+      "transformation": "byte-exact copy; maintainer comment added (submission candidate)",
+      "rights": "pending confirmation"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript; publication details are pending."
+type: software
+title: "high-dimensional-chaos-generator-2026-reproducibility"
+authors:
+  - given-names: Wenbo
+    family-names: Zhao
+  - given-names: Tao
+    family-names: Qin

@@ -1,0 +1,5 @@
+# Figure 1 SI inset provenance
+
+The manuscript's Figure 1 references `golden_range_si_inset.pdf`, SHA-256 `178a6929a3c28b4921f12400403359174060b42cd4cce7c119078f07d59f2180`. Existing upload-package provenance identifies it as the converted SI EPS PDF. The earlier drawing audit records the same PDF hash and source EPS `enhanced_golden_range_scale_index.eps` SHA-256 `5e8696d445a19c2d6e6a22950e7e97fd80379b6765150c3232a56392ffe42977`. It also records `golden_range_si.csv` SHA-256 `18ac5c82836596d229129c4409773f74c205a67ffff7e0857101337a47288091`, equal to `data/figures/expB_golden_range/golden_range_si.csv`.
+
+The original plotting function `software/experiments_rev1_alignment/scripts/original_plotting/golden_range.py` sorts `group_index` and maps SI1–SI4 to `si_x1`–`si_x4`, mean to `si_mean`. Existing plotting input audit reports 119 finite rows and no interpolation/resampling, and the inset shows the k=51–69 window. This is a historical hash/plotting audit chain, not a new render or independently rerun scientific experiment. Images remain subject to redistribution rights.

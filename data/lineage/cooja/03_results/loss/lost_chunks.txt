@@ -1,0 +1,43 @@
+# Chunks lost in the Cooja wireless link (Sensor -> Gateway)
+# Bitmap semantics: 1 = received, 0 = lost
+# Total chunks: 256
+# Received chunks: 223
+# Lost chunks: 33
+# Loss rate: 12.89%
+# UDGM configured loss rate: 15%
+# Observed loss rate: 12.89%
+# Data source: raw_logs/gateway_serial.log (actual Cooja run)
+# Lost chunk indices:
+20
+21
+30
+33
+35
+42
+46
+49
+56
+63
+80
+81
+83
+88
+89
+105
+113
+133
+143
+145
+148
+170
+181
+191
+215
+219
+223
+232
+238
+242
+244
+246
+248

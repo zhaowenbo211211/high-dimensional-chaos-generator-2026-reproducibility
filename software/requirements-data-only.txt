@@ -1,0 +1,5 @@
+# Stored-data validation uses only the Python standard library.
+# Replotting frozen CSVs additionally requires:
+numpy>=1.24
+matplotlib>=3.8
+PyMuPDF>=1.23

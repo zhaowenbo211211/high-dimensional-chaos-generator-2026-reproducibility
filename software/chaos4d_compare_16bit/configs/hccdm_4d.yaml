@@ -1,0 +1,10 @@
+map:
+  name: HCCDM4DMap
+  family: 4D-HCCDM
+  semantics: float_update_safe_tent_safe_sinh_safe_exp_mod1_wrap_then_u16_quantization
+  init_float: [0.1, 0.2, 0.3, 0.4]
+  c1: 30.0
+  c2: 13.0
+  c3: 6.0
+  c4: 20.0
+  m: 1.0

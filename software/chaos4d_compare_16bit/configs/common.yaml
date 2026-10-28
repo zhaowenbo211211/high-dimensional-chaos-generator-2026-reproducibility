@@ -1,0 +1,8 @@
+project:
+  name: chaos4d_compare_16bit
+  python: "3.10+"
+
+state:
+  word_size: 16
+  modulus: 65536
+  init_float: [0.1, 0.2, 0.3, 0.4]

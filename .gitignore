@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+/build/
+/outputs/
+*.so
+!/software/prng371/golden_371.so
+!/software/hd_chaos_project/hw/src_371/golden_371.so
+*.bit
+*.dcp
+.Xil/

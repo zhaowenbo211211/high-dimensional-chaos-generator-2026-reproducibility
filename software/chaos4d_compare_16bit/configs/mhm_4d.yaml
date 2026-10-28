@@ -1,0 +1,12 @@
+map:
+  name: MHM4DMap
+  family: 4D-MHM
+  semantics: float_update_safe_trig_mod1_wrap_then_u16_quantization
+  init_float: [0.1, 0.2, 0.3, 0.4]
+  a: 1.0
+  b: 1.0
+  k1: 0.1
+  k2: 0.1
+  k3: 0.1
+  c1: 0.0
+  c2: 0.0

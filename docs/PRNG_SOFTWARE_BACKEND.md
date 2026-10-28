@@ -1,0 +1,9 @@
+# PRNG-371 software backend
+
+The author identifies `software/prng371/golden_prng.py` and its adjacent `golden_371.so` as the software reference used for terminal/PC calls, software–FPGA consistency, and Cooja-related software keystream use. The wrapper calls the existing library using ctypes; it does not compile or generate it. It declares `golden_init` and `golden_next`, four 16-bit seeds, a default warmup of 2000, 64-bit output and little-endian byte serialization. The .so is the selected compiled software implementation, not FPGA RTL.
+
+Source: author-identified `PRNG371_FPGA/hls_src/golden_371.so`, 15064 bytes, SHA-256 `4195f0d0a444ab37cddc2077aa60146b9b9aab0b8484ddc9b1be39cccae9709a`; copied byte-for-byte. Static ELF metadata identifies Linux x86-64. The original C source was not recovered and source rebuilding is unavailable; locating it is not a release prerequisite under the author's stated scope. Distribution rights and final license remain pending. No library was loaded/executed as part of this update.
+
+The paper's Cooja scenario is an author-confirmed application of the PRNG software reference. The preserved Cooja sensor/gateway programs, however, call `prng371_init` / `prng371_generate_bytes` in `data/cooja/cooja_sim/prng371.c`; the preserved offline figure/reconstruction script loads `libprng371.so` with that ABI. Those files do not themselves establish that they called the `golden_371.so` ctypes ABI. Do not substitute one binary for the other or infer sequence equivalence solely from naming; precise cross-implementation/instance lineage remains unverified. Cooja image assets remain excluded pending rights clearance.
+
+An independently coded pure-Python model is retained in the separate historical R2 archive; it is not included in this selected candidate, is a separate reference, and is not the C source or FPGA implementation. Historical test statements are not new execution evidence.

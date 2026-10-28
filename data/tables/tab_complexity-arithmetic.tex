@@ -1,0 +1,32 @@
+\begin{table}[pos=t,width=238.25444pt]
+  	\centering
+\begin{minipage}{\ifdim\linewidth>238.25444pt238.25444pt\else\linewidth\fi}
+
+  	\caption{Analytical arithmetic complexity of the
+  		proposed 4D instance and seven reference maps
+  		under the stated counting convention.}
+  	\label{tab:complexity-arithmetic}
+  	\fontsize{9}{10.5}\selectfont
+  \renewcommand{\arraystretch}{1.12}
+  \setlength{\tabcolsep}{2pt}
+  \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.29\linewidth} c r r >{\raggedright\arraybackslash}X@{}}
+  		\toprule
+  		System & \makecell{Stored\\states} & \makecell{Gen.\\Mul.} & \makecell{Gen.\\Div.} & Special nonlinear functions \\
+  		\midrule
+  		Proposed method & $4(+2)$ & 1 & 0 & none \\
+  		URUK-4D-DCM~\cite{AbdulKareem2022URUK4D} & 4 & 11 & 0 & $3\tan$ \\
+  		4D-IDHNN~\cite{Ma2023IDHNN4D} & 4 & 4 & 1 & $14\tanh + 1\sin$ \\
+  		4D-MHM~\cite{Lai2024Memristive4DHardware} & 4 & 6 & 0 & $2\sin + 2\cos$ \\
+  		4D-NDCS~\cite{Luo2024} & 4 & 0 & 0 & none \\
+  		4D-MPRC~\cite{Xiang2025} & 4 & 17 & 0 & $6\sin + 6\cos$ \\
+  		4D-MSLC~\cite{Lai2025} & 4 & 8 & 0 & $3\sin + 1\cos$ \\
+  		4D-HCCDM~\cite{LUO2026} & 4 & 4 & 0$^\dagger$ & $5\sin + 1\sinh + 1\exp$ \\
+  		\bottomrule
+  	\end{tabularx}
+
+  	\par\vspace{2pt}
+  	\raggedright
+  	\footnotesize{$^\dagger$The factor $1/2$ in the Tent map is treated as a shift operation rather than a general division. For the proposed 4D map, $4(+2)$ denotes four
+  		current-state words and two additional history words}
+  \end{minipage}
+\end{table}

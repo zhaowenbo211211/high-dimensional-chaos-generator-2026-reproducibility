@@ -1,0 +1,17 @@
+% ===== 自动生成的混沌统计小结 =====
+\paragraph{定点混沌序列的分布特性分析}
+为了评估本文所采用的 16\,bit 定点 5\,维高维混沌映射在有限数字精度下的统计特性，我们在丢弃前 5000 次迭代用于预热之后，继续采样 $N=100000$ 个 5\,维状态点。将整数状态 $x_j \in \{0,\dots,2^{16}-1\}$ 归一化为 $u_j = x_j / 2^{16} \in [0,1)$，并分别对各维度进行直方图与经验分布函数分析。
+记归一化后的各维输出为 $u_j(k)$, $j=1,\dots,5$，则其样本均值与标准差近似为：
+\begin{itemize} \item 维度 $x_{1}$: $\hat\mu_{1} \approx 0.4995$, $\hat\sigma_{1} \approx 0.2887$, $u_{1}^\text{min} \approx 0.0002$, $u_{1}^\text{max} \approx 0.9988$.\end{itemize}
+\begin{itemize} \item 维度 $x_{2}$: $\hat\mu_{2} \approx 0.4995$, $\hat\sigma_{2} \approx 0.2887$, $u_{2}^\text{min} \approx 0.0002$, $u_{2}^\text{max} \approx 0.9988$.\end{itemize}
+\begin{itemize} \item 维度 $x_{3}$: $\hat\mu_{3} \approx 0.4995$, $\hat\sigma_{3} \approx 0.2887$, $u_{3}^\text{min} \approx 0.0002$, $u_{3}^\text{max} \approx 0.9988$.\end{itemize}
+\begin{itemize} \item 维度 $x_{4}$: $\hat\mu_{4} \approx 0.4995$, $\hat\sigma_{4} \approx 0.2887$, $u_{4}^\text{min} \approx 0.0002$, $u_{4}^\text{max} \approx 0.9988$.\end{itemize}
+\begin{itemize} \item 维度 $x_{5}$: $\hat\mu_{5} \approx 0.4986$, $\hat\sigma_{5} \approx 0.2887$, $u_{5}^\text{min} \approx 0.0001$, $u_{5}^\text{max} \approx 0.9999$.\end{itemize}
+可以观察到，各维度样本均值均接近 $0.5$，标准差接近均匀分布 $U[0,1)$ 的理论标准差 $1/\sqrt{12}\approx 0.2887$，表明在一维边缘统计上，该定点实现基本保持了理想混沌序列的均匀性。
+进一步地，我们将经验分布函数 $F_n(u)$ 与理想均匀分布的 CDF $F(u)=u$ 进行对比，计算偏差 $D_n(u)=F_n(u)-u$ 的 Kolmogorov--Smirnov (KS) 极大偏差 $D_n^\ast = \sup_u |D_n(u)|$，以及 L$_2$ 范数 $\|D_n\|_2 = \sqrt{\mathbb{E}[D_n(u)^2]}$。各维度的数值结果大致为：
+\begin{itemize} \item 维度 $x_{1}$: $D^\ast_{1} \approx 1.3126e-03$, $\|D_{1}\|_2 \approx 6.0191e-04$.\end{itemize}
+\begin{itemize} \item 维度 $x_{2}$: $D^\ast_{2} \approx 1.3026e-03$, $\|D_{2}\|_2 \approx 5.9945e-04$.\end{itemize}
+\begin{itemize} \item 维度 $x_{3}$: $D^\ast_{3} \approx 1.2926e-03$, $\|D_{3}\|_2 \approx 5.9478e-04$.\end{itemize}
+\begin{itemize} \item 维度 $x_{4}$: $D^\ast_{4} \approx 1.2926e-03$, $\|D_{4}\|_2 \approx 5.9455e-04$.\end{itemize}
+\begin{itemize} \item 维度 $x_{5}$: $D^\ast_{5} \approx 4.4539e-03$, $\|D_{5}\|_2 \approx 2.1801e-03$.\end{itemize}
+上述结果表明，在当前采样规模下，各维度的经验分布函数与理想均匀分布之间的 KS 偏差与 L$_2$ 偏差均处于较小量级，说明该 $16$\,bit 定点 5 维高维混沌映射在单维边缘统计上具有良好的均匀性和伪随机性，可以作为后续混沌加密、密钥流生成或混沌置乱模块的基础序列源。

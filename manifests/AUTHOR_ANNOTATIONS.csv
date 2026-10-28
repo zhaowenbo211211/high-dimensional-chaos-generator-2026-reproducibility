@@ -1,0 +1,403 @@
+path,classification,reason,before_sha256,after_sha256,insertion_offset_bytes,inserted_text
+hardware/prng371_hls/chaos_core.h,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,58344c380645bf5b2dce0e582ff37bb76d22cc8c4a510afc3c851f85791f70fb,ed5b344eac017a387a5d680475500515130cc0c9cc9961c4c8e91897a2786de1,0,"// Maintainer: zhaowenbo
+"
+hardware/prng371_hls/chaos_params.h,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,67c7251424726305e13aac3e98f017c05293706af392083f4abd1b7b6e680381,2e663f58bfa749082a44649ecccf6487268ba72a8e59d02e2e340d9faa655735,0,"// Maintainer: zhaowenbo
+"
+hardware/prng371_hls/prng_top.cpp,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,b4c0faf2275479e7ce493a40f1ad6844c968d049c32a217f4bfdb19376ece738,01d8f0205f6e1642b840a2c3b794381b0309d305c31ab385b65d1f2458144820,0,"// Maintainer: zhaowenbo
+"
+hardware/prng371_hls/prng_top.h,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,6cbb22224a1d3d0c2063f144dd3308a2d7b1a18d08fd8c956897983179535897,282cb7c84be4baddb3d37ee5f182b92a3cba86522272fde4921c9a3159ec0172,0,"// Maintainer: zhaowenbo
+"
+hardware/prng371_hls/shift_mul.h,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,44b6440b9179e42135563a331148a6a54d1d24d2006f5fdf70daf52393968958,ce38684ad8e274253d5bb6bc4461c86fb49ba8283713041f9f1c1c43c5e840c6,0,"// Maintainer: zhaowenbo
+"
+hardware/prng371_hls/tb_prng_371.cpp,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,3fd5dee8b270dd98e7354ef36487329243de02f6118e7380520572b7d95298aa,7960b9700e0d9302d377fea27e9c55be28751ab927d52d881427f867f79004eb,0,"// Maintainer: zhaowenbo
+"
+scripts/nist/generate_prng371_nist_input.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,e402846c1644326e991e3b5881db25616ba673a759d8e4ca65877c24a21b90de,5572dca27bc93df3819a354623aa126c77c7921569fc6a0d20cb51b24d40a288,23,"# Maintainer: zhaowenbo
+"
+scripts/nist/parse_nist_results.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,56f81ca5398044cef8fcf7b032e293be529907d050eaed7244e08915b85c8e3c,b7aa03f03c2703daf41a79be04bf1fd82dcc31c6a0258534fcd385c296621e27,23,"# Maintainer: zhaowenbo
+"
+scripts/prng371/compare_fpga_capture.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,1d0ed99e5766b9fd559d9b62394aa65b61507b60f93c478bf2673120d540c4dd,a5fac01d2abda3fe277991f2afe618d38da3c4c2a7091d7859d614cb04df5988,23,"# Maintainer: zhaowenbo
+"
+scripts/prng371/extract_and_compare_100mhz.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,bce70068d274c1fcf9ff9e724ed0cbef50db956e645da1e9fdd7550f8bfb004e,be2bbd21585eca391f57ad99b3b649f0389476a6284bff23cc19783cadec251b,23,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/chaos_maps/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,317a11fd11d8810582537c71f4f0d968cf2c66700d851130f02688a4e8f95718,857c0f3e73fa2e4bdd454207de68e8ee26243c3b9c80a5db9b7cba114519702e,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/chaos_maps/base.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,c949bb1455014ddb0ff9877780088b5d937d89ceea04aa1b4dbb057b8610ee47,53b27fdb40ca820554eb0e15749dc6221a49cffb61ede8b07c498ed35192b005,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/chaos_maps/hccdm_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,b29ee178b6bf81842993e1142ea2a828ba77e72bb6e24a35b7ab29235e3df7ce,5a8f31fe941ec0781d788c0ee591ddcca451dcbcdeb9280b2f3a1f834488a5f0,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/chaos_maps/idhnn_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,d6fed31544e2a7734488a73101633ad280a7af1207159913d5e47b23dd759f2f,055322d7c38f762d24f69bd450bb17012829ee97774d4070180435d0b88acb12,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/chaos_maps/literature_high_dim.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,98b57cb64695d073f608102a855a2f726b8eece762bc45c1d300c698cddaddc1,265932e42468e19f0f5d581cb897ffd3bc1e84e2bdce258316e0abf29159056c,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/chaos_maps/mhm_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,c5590ed408f15d267073bedde3344e97fb1b72a1bf8066d0b4bf0e072f34305b,87245ef70dc35ce96f2404793b8a4b778e193c28e1e9e704a9246f7cc35e7904,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/chaos_maps/mprc_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,0e2d412b4e417fa9b4f89624b79ef2f43faab5960b57c4cd6490deeb8056c59a,f9b5ed48e550ea3f599cca89c1dfb373cb66b477bbf228f9427bf6794e953ee0,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/chaos_maps/mslc_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,7eb583f1a1a60757498cdce83727e176db104929354495c3fb0c3ec528002f04,a0c5cf8d8cb1eecb3d30c03822cea3e3acddaee0d8cd707ede735d2bc12acf5d,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/chaos_maps/ndcs_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,afe05c2c088160d8ef79df032ea41be5b3e68f77392e851c36eaa3dc4e31731e,7238a5d85042b0d4b49f17fca096794f6d95585082906cb9fecfe718c58d80cc,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/chaos_maps/proposed_base.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,80722f9ab37b35cd06ffb53a13c022391d3a886bd7abdcc094ffeaf0ea0a13c5,c71e67e3bb27d7e275d5695d9a4c6df282d39a0c73343247baf897aba2b3355e,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/chaos_maps/proposed_enhanced.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,15e827db9b845a7cd87540c6b6103c61de7d957a8ea4572e04b7665aeb2c74bb,66bdc0dfa2ea378d9e739b321137fcd78c028d90cc6dd07ac674921de235bd35,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/chaos_maps/uruk_4d_dcm.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,85312ddd2aca781e19def032c7bb2722c98b21b56172f7aac074e5dd31fe6ee7,03302fd30a25eaf7bbe160db84257a08f5da706471d3b3b00f42a49c17f0f28e,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,976715d377d710412661a8b81a44a41726b4fffae23abf4a260cb030165eab74,c4844e4f6d5be393575be1f1abdeeb81dfe49d8850e340fa30675d6cff9561d9,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/export_tables.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,52f3dffdea4fccba555624a24ebfd13ac9ed2ff923a55e0083ba541229e62d03,d1387b4cba23fdb0c22f55299e1b9edea898712d66dfde088dec7df9106bfe36,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/nist_prng/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,b1d54813cb8638701b6ad574f63de8335edcc94b68466133b5c2b3798c899090,ced6b5d78d559a68bd608660b58e9ee56af9982111198dfc02d71024385e895f,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/nist_prng/run_nist_prng_plain_concat_only.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,25d50dddd73b4605b238754db99561aa818e1184df9286e00649c3e6fb249b41,d7400a976d617e9041b9e97bd640d45d3dfb5e217916fa10244b8de92c12e0c2,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/nist_prng/run_nist_prng_system_level.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,70361a37065e10a1c5ec710ca6a182897d64a60088b4410ce7067a8326e72a0c,528bd14b5708198555709881baff8064c12987210327e4ec55ec8184aa041793,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/nist_prng/run_official_nist_ui.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,ab3f31cec610a43e2e06242a95f7e1f8563c38173b92aa7b1b22266136008033,2dd93801b533f38c112bf2ffc55fa7b645f227ecaa7a835f74bd106ed00315d1,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/plot_dimension_scalability.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,5b0858cd018c240512c3a420a7196a3f4b77ebe8f20f9c68d76d65fc78897cac,6af13161689fb14d6719c902b99f9895f814f922ec48f08ffdecea980d2a5d6b,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/plot_golden_range_fe.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a4209d0147148b9befdb34d647d376228f9db977124122709715a0dee0bbb29a,0c74c09049b2186a84a239adb1f8cec6065c97ab7d677ab704c78cd8c885fdc4,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/plot_golden_range_le.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,c475750c460d5b0ffed8009de1988e2a71ae771739243a962641728a22f748c0,f843d6480138ef24b28d701197e02f8fdd7d7cec527409e2b51e6e06aa75a6ad,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/plot_golden_range_pe.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,025059925af30e212a743f646d1318f058f8d5a92cd1bf06ef4be97df83a4f86,a6ecafedddd11a2842cf7a68cad764b3418fc6ea9e182b49d1e88978a4f830fb,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/plot_golden_range_se.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a52bef70b33e69a010e08978e7cf0886531bf723380aa86c7fd72bbb3f6025ef,790ae7a4cd335f2315d747029df908b34df153711ab96bdc82388dfaa43892b8,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/plot_golden_range_si.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,f327839a4f463f86a7c515967cd353784acdf4669be2fe5efcb9374417b679a6,04cd3247c20ca721fd457ed8de9e07b6f162d323d14cec02573b8191e1df5f1b,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/plot_si_diagnostics.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,d8d6f4c6ff5a190803591290b1054f0a7673453f79707270b2b73e8acde4d115,7a5a87d2e8f6fa4009082f276d1436a511523aed59b216c27be86f9ac1fca620,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/run_cross_compare.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,546a0b40d8bc42e39dfc7c2032249318fe93cdf7d27dc5af6519156ad0e8b12f,71b8490a6ca8e883a2c92de0c892ff65c857895472b50599bb659d19cb9bc2c0,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/run_dimension_scalability.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,08f5431cc2116ff722179279b32842a745bb9b7afd08730a34c09ddff1e313e5,8fb89bf276003d0a85cd77531a8cebe87cdb32d2a4f54a6b1873d6013a3a564d,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/run_family_scan.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,0b00320c3595927e2428c69ecba28703944a8a90f1628a136c72b7a29d8b209d,f779cab71835f92196450587daf4fcf7d4b6bc8de42eea5cb938dded507a3b1e,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/run_high_dim_all_methods_full.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,86edece9c0d6416670567757f646b26406fe6bcfdc1d2ba776340b52eaf84134,4f0abc9f02b8a6d7c36f049a501e08b6b4db9541ee8b67cfad20684ed0054d7c,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/run_high_dim_literature_comparison.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,6ecf7272da612be3b41facefaa4cabec8dcb27af7fe157fc8137c6d263a10840,3510b493550c5ca52ba71bb4da538322f105b11fa0f36593f4969622807602a4,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/run_high_dim_literature_full_incremental.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,0642fc6520468abe3e0d84f8ac1674d204fcc63d438fe254f82f5c12fa25afff,0e9a6e4678d66f3aee06ce98da6f399520f6a218961e0ff3e3b253453bcdad97,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/experiments/run_single_map.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,fe03070fcda02fd275fc6f69e13ffbc1a8ee1c2c69d3f765d39ce03c2667d0d0,7334e8b9d1350e03a4f518b77f7fe1a036967092d926e8915ee4a8673f0a1ab0,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,e735f7c603970065a0c5e74ab9b41d043fb72ad9f096c3c8556743f142c530fb,f321bcabf47110e97fd35f78bbb22173abafe232a5188c0e0291fc26b572131c,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/common.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,4a80cb5d0a1b55c874cc4b974dfe847c3a87b68bf24947121ddfde7d4837ebdc,1680600cbe92031ce8da4dc32ed807b70e466f5d0fa40e53fa64a61cd48ed602,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/delay_xor_whitening.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,c62fe2dab6afabee01d6642d0d4a0594ce19c996a044394ed2c9af4767ddf748,cc5b9999b70420e85d24d88e4297a453aaf9b823d2ef3e67bee7ec8d6af78a43,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/direction4_linear_mixing.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,6615e3f8e886eda411c55080242266e80a19d848d3cddc63a52afc7bd583f411,457017b94926532d5f3da65ea8fa9bd76fef71db7504deacea0e395f3d002909,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/direction_fusion_whitening.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,cb2cdc30ecc71ddce0691fd05b860c7cc6d8bbfec188e328ba8d029eeef2a8ba,5443795e3ee907055969067dfda0af402713036579c8f3a6c21237f37bb725ad,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/fuzzy_entropy.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,eddfa61e13c605b6b288c8267d2d71780b93563ef930c7523e66e6145d18376f,4b171dd2ca56b3d78828c44780e032547a3f4d9670d0cfb405cad8b85fa5aa79,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/high_bit_truncation.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,fc5bc148590c4625452ef8f8ed7da919ff447ee01b513d7a2a1adf9145884433,25dbc007915b5bcd706904c9f4452b7d4afe24d9cea16b69a2e9a88558f232b0,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/lyapunov.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,f1272ac6c46315f8877d0602a36013960aab1222720bc51dff2508bd9778e663,cc96dca11af5149e8156fe54f5b58741458627a94ae937fa3046553350ea9059,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/nist_randomness.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,5d7719f94d2cec077e411ecb4446c3fc062f76e515f5b1c8d20e518672628966,592a6fcf76571365f3c3d5e34a4dc9a0955ff944bc9e558cfd24bfa6b74a472f,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/nonperiodicity.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,122a997061e9295c9acdb6206cf2abdc6a0da04cc9792e0c4acf0d4c9be77ce5,b62206860a4736faa730f0a83935c169ca1556bc07faff0a4535a63493961f40,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/permutation_entropy.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,e8189f256a37c9b489cc78f784e68fe02b9ab75b00590c0b195628a8c99519f8,e1b7d3a78d94846f763d35014610b2188c62296d4d940ab2eaeb09628be7efe0,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/prng_4dir_mixing.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,333743e16f2bf0cf63167dfa77cacd84a63f043d79fd9fcd72959ddc0b9171ea,67d2919458c2c96aec8c4778f75ef3e07d52c6dbfc40662e2e31db70ea4f326d,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/prng_system_level_official.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,d1ca325db7095d7b635296ece72ed9b33b38e085f7cf363932df3110eacaba97,3db2b049ee0e37117265eee6f391ef14afd4d3cda2965b243807af8b61780528,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/prng_truncation_position_compare.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,9cb358bc927d62e4eab2bd8c46a756cfe013ea56080d3da7b5089b2682692b99,1b934f16265a1017b3701231bbdebe94ac6032dd6f422f4e4d1ed28d8116de55,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/sample_entropy.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,d04623760defe9ba08aaab09edcac6a80ead111c5f6e26e97f476233f8017be5,294f355d4ffa05c6c68249279f108514d8872b32e17d00bc6a1b99cfddadc244,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/spectral_entropy.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,1efa139e1fd6d5a812d58c2d9c2f848240ae585bbd3ccf9941fda0bff48b7d54,29b7a2a8c9ffe74888ba952ae3c54632d27d81662a90dbcd279764ddd19c1f18,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/two_sided_truncation.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,c6d2c3b351fa542cbfd0c465458f48e09aae6fb013c123e0314debb805798026,2c2c41513edb1cfcf6dca4f16d1940d7bace0dcf9121eb16cbc5767ecba41219,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/two_stage_midbit_delayxor.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,8aaa82eee002546f09ce8ce93f1fa8066c0e32925726b795be6f1a34e622006b,8cf4b6b6db33f0501b96a2a25fea7b84dbe9ab5eb496b01f81b99b9fa6f46bbd,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/metrics/two_stage_postprocessing.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,0258346bb88237f3b2f731fe5d7b1fc5cd343e7597fdc7b63308c5e7426dd68e,c3b79d411777273899212f7b76bde02f77553306584f89b2548e15d250ae2629,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/project_bootstrap.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,f336c362d5ebcf1dc3f3dd6be506adab930ef299a8553da1e2a947a82feeae93,78e4061a52e5006737a4d57d482702fdfa3e129d8d3addffc0f0dbde610a1e64,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/conftest.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,7e02d3546b2c34c8a55fdfba57a6705a6fdc5cd6563c5f7d62e8105aaeae1d93,40077b156c1ccc5ac4eb047bc37f92f8f6ee32330fdb21df19ee322175003b7d,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_family_scan.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,13ba1ab7abc3efb635cca31c4432bfac4ea15e14bff1741577d3ec1a981f72b4,43e5845d88c9633c28ddd2cdc88fca87fd542862cfa7bc62d16870bc15615f2c,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_fixed16.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,6487823a51a2a95dcd177445f57e3791d272779261316ee61041079976bae460,c12053dd97d3cf3cafb6263c1dc8538992968b8c5d7f4f98d90c68a6c02ab14e,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_fuzzy_entropy.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,fc19a68519ff9ba8c4900dbd1eb0ce160ceb2a2eccd549512229063cd84f47a0,87a0ab22d4fcfdcafbd89014f0f1da680255bc2970dfa3e7e9ba98cac0b2412b,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_high_dim_literature_maps.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,791885815ae5ee46cdaf465d0c77fc498ed3e1f46ceed44c25a5e8abdc022b65,ecca3570ec7be0f59bd6775c7764978a2325ea44cce98c23437db86fd0bd343e,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_high_dimensional_metrics.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,18d9886bea399374f8465d416dc8ab1fde9ac7f07b33155ef0c1be26380240c6,8c0560e705b7f8f36d9fd3b748d94d2013c9df1b236ec4c45a495bc80a003192,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_initializers.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,b2ccfa347f3fb6ebe3a2f2f2398069510a6590a759323b015206b19568e4eb4e,6360720594ef9a868bb0a874d977889ee16bd19ac4af2b38bc5fe9882835795f,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_lyapunov.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,38b58e50bc4a54ee90aec2e87357024caa8ad5af240ac7b876be827a5590f307,4999dd09eac1ecb4073e96290e9af868a5d44590f7dea0e0083fc39522035a6c,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_maps_basic.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,ce95c681bd46fc637c3248333161ec464827f56bbcb2fb3df32dc66624fc62df,f86ab1cfc8d7dd670ed3e9a3ed4dfe19fe7170d5f828b702f95c0f3d1e501f4d,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_metrics_smoke.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,c6d5fdbc4742d4310755d2807432873b4387cdc434684fee9d093fb898f97031,d6f02a9defbe833c4eff1a2523bfe6cfab99c152b590a39e522aee8d643c7b31,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_official_nist_ui_support.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,2dcf1136d25f4018dcfa19d9d2527dcd5f906603b013b8c0b9542fa44d8ac162,6687f78f3bdff5b99860d45df4185cfab6c6e7ad64e1dcae230ca7b11683e636,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_permutation_entropy.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,4c6b3ff28f9f88fd31cc390f4e67e8ce4c1d2a9050671c71d1e5296fbfb7e2f0,9f7aa077467af91b5dd0fd5b44e1c04a545b17df2602f358ce47c611cd380ec3,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_prng_system_level_official.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,3246cd233279de87ff17609bb353b9c61955887dfb502bc4e79159a838530805,d36266f8c49f397d4034288f1a3ff8b4d8edf9214a708f0d86294f472da07e9e,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_proposed_maps.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,e855395fb97e04e2e66ed4319791019d6f8b216f2bd76f326b3c0ffff81bcb37,5fd89e4ace191b25bf7c6a2c8520618d1a8c4e86cda9e9a2991c1b3f1826fa95,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_r1_ly_high_dimensional.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,f830de7be325c2dbc63959982da1b79b177307902d8c40ff173d10c6ef2dff88,4a6806f4116d7d692ff866b03b26e618025d43019ee84652f48c945bc591a457,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_r1ly.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,8f827dd7bffdfa504b65f4aa11836974dfa5dbbf6f49fc464e43ae7b2bdab80e,d87717977202933c223e773fff52a04328de887093c40733d40f82634f0e4139,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_scale_index.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,19a92ce0f7f755964d519429645163cc4602cde7e87e17dc25f72e36e4e56605,aef8228ce618262a679c15517e32b19f6c27c4b65f42d3e6b9e9debb3df8f8ca,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/tests/test_spectral_entropy.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,07c31cc15a1344100a372e217a8a8c1bbcb4419e223bd69f317c4d9efe2f0425,389bdb082cd27cfc08e44430a00d72d4dad62a0fb05f063bef88b855b352841f,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/utils/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,525dbf03db877d91a7dd562f2be3b7344eaafd85167c584d1abf0f9183766c82,6abd2db6e5ebbfeca0dadf53f20cd5e786865389dd57ec95017a0f09c99e1aa0,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/utils/fixed16.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,ec7f3ab18fe9bcc4aad1799db99a06a5e40061d53ea64047cc05e4b054f1f6fe,c4eb2391c95990637ba03e733d2411cd5093edfc205fad709a2c6c2dabcd79fd,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/utils/initializers.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,bf881c470d6c62873e1fc8e6ce5c00e51c83b31d0f8d5e1ce20a73b79a0ef179,353c4ebc8848f632fc5d1559f7671656e40c71ac7c09aef364eada90feee8b39,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/utils/io_utils.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,4a5ce4a8dbc32f9f2921b88acfc985e11e5600f33c985c80a36adf7ad3202af1,24d41605add82163c6362fbe07bfbacdf3c16792f31b1b6038d579eb7c111ba9,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/utils/official_nist_runner.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a2e3bad6bd80d39bbceb6123789233154d9f7d1cce214a343ada0f998ae651ec,3b6515523e4dc5819f1c3c49e025844d13392b47d4a2aafafc8ee447bbdff066,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/utils/r1ly.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,d2f28457c92bf2437d0c69c3c7e2d5599ecf590572c51fadcf85e5f9cc58572e,e7375426197a2f7ac8a672793cc4edf5b15fde9487bfdff99fbf3111c2148048,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/utils/safe_math.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,2f5a3fe92d450369b7288031cd2a9a8cfad67b22bdce277313e23c8515e30bbd,86be643186eb66ca10538a6bca760fac39fe36f8f1ed9d62a166fcef57e3c383,0,"# Maintainer: zhaowenbo
+"
+software/chaos4d_compare_16bit/utils/trajectory.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,04cf5f89b3100f60d37f0696f567ef8af671f6616b8d0fa3b39557cfd7f406a8,079850cfbc94e43e602da33eeea4f0d20fb538ed0743bd3f200907c1836e7b85,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/scripts/aggregate_results.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,f684f3848c7e930e3e055f7e551e3ebaf9c5a0228a52d736a08745898dab990a,7fc32ae085ede99ee05486058a68822dc4f805a1819530df126a1d7de5140763,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/scripts/export_figures.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a7298d0b26c467353d04bda45680ca91d6032e3b9d3a2a2f9982cdc64abbeca0,1718789dde205b9e0bae7b8fc9e5156bcd450ebad9cafdca6466875ac4e58e19,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/scripts/export_tables.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,bf3bca70144eca6c2d4f9fbbdcd9e409e9add4c6c62a9f486ea64e6807c7c5b3,75d52ec4cb136a32c7ccfcfce2e3661f017b35a309462a6394d8bc99b1c7015f,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/scripts/original_plotting/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,10ad43e6182e7ac5f9b19e33e877900e207b77c42d0da07484995fdbedcdf2be,24e144e633c9489ae978a0d946f9e5825078f99ce9107bfbb20b4156d72feac2,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/scripts/original_plotting/golden_range.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,d7fcb1f9c781ee82ddbaa35eadffe50ce1db705a211546312202f6b3fd246807,51fbfde40f4cf899749712b0f07f0f0f32678db555e603c189827701c2554486,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/scripts/original_plotting/high_dim.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a20492797e46980bfbe6d8e916f138b595fc49421f8699d0543d537d449c1993,cf6cbe46316d2fe1da11ced7aeb2fbfe05f6e8beaecc4698b404c2d3ba0834fc,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/scripts/original_plotting/si_diagnostics.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,2345844ccebdbb3e7afe3c38688e8c618e85400c80b81d9e97d5eb7214c9ba78,7edd322538316eb219b90f913a950bc9bc2f241cf2966b99f9fa30939f1386ab,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/scripts/replot_original_style.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,254cb1d2ba70d74da8d83257e9e2a01ab87edf661bff100788a0e60a2aca8c8e,a0666cee6d4c38dceee04800dc2aff9baeac4bd72c4aa0d9c81970f74ec027ee,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/scripts/restyle_lyapunov_comparison_bars.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,ac0ff8f523d0b3ad54a3fa19ebbd5ed5c54ee78d8221efcffb0e664aca5c80a8,a0ec0e86c329d48c695b14bc8bd0c7949041334042f18adfef56dfcb62dcf2cf,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/scripts/restyle_phase_b2_figures.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,39203491e4b316ae3365a1feb20d73ae1d4d673691c81f460674a0074cfdf7c9,04d8da4a7b93176e502107b2d02b50c3e06c81def42fe50dba74a3d0a1cc8600,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/scripts/restyle_publication_figures.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,0b807bc0f3e4de4d70b371de82b635bfea78588e4a090add291b6478aeb2b482,42baf83161c13a4da451410e2c1b2b35906f01c0fd22e2e669de28a8d183db5d,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/scripts/run_all.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a1c596b36f8022a1a53489081bebf80dfe9ef90e2a9a636bae33faaefea2648e,18846a01846f8c608f097da4cd5172a7839d04848d20d35b3c5bc03a19f9d22f,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/scripts/tasks_rev1.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,3c3964f2a86881f4e377b1a862154c610bdef0ad260d4586107bac9a32a3728c,d90da70ace17e2dff4cd8239bb07d7c1d06ac229089773fa08c3d053c31bce4c,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/chaos_maps/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,3fb6da4ab315e0a69a7aec76c65f881db7885e0bfa83211d0020f13c472fe2d4,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/chaos_maps/base.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,c949bb1455014ddb0ff9877780088b5d937d89ceea04aa1b4dbb057b8610ee47,53b27fdb40ca820554eb0e15749dc6221a49cffb61ede8b07c498ed35192b005,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/chaos_maps/hccdm_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,b29ee178b6bf81842993e1142ea2a828ba77e72bb6e24a35b7ab29235e3df7ce,5a8f31fe941ec0781d788c0ee591ddcca451dcbcdeb9280b2f3a1f834488a5f0,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/chaos_maps/idhnn_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,d6fed31544e2a7734488a73101633ad280a7af1207159913d5e47b23dd759f2f,055322d7c38f762d24f69bd450bb17012829ee97774d4070180435d0b88acb12,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/chaos_maps/literature_high_dim.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,98b57cb64695d073f608102a855a2f726b8eece762bc45c1d300c698cddaddc1,265932e42468e19f0f5d581cb897ffd3bc1e84e2bdce258316e0abf29159056c,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/chaos_maps/mhm_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,c5590ed408f15d267073bedde3344e97fb1b72a1bf8066d0b4bf0e072f34305b,87245ef70dc35ce96f2404793b8a4b778e193c28e1e9e704a9246f7cc35e7904,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/chaos_maps/mprc_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,0e2d412b4e417fa9b4f89624b79ef2f43faab5960b57c4cd6490deeb8056c59a,f9b5ed48e550ea3f599cca89c1dfb373cb66b477bbf228f9427bf6794e953ee0,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/chaos_maps/mslc_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,7eb583f1a1a60757498cdce83727e176db104929354495c3fb0c3ec528002f04,a0c5cf8d8cb1eecb3d30c03822cea3e3acddaee0d8cd707ede735d2bc12acf5d,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/chaos_maps/ndcs_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,afe05c2c088160d8ef79df032ea41be5b3e68f77392e851c36eaa3dc4e31731e,7238a5d85042b0d4b49f17fca096794f6d95585082906cb9fecfe718c58d80cc,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/chaos_maps/proposed_rev1.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a025c73686d7f701646037db6ea3d7417f9ad52ff5cdee0fb1a4322d1a886d4a,28a734c0b9b8635f141b123c0f54139e547ab37499eee2e9f154a1052e0247e3,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/chaos_maps/uruk_4d_dcm.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,85312ddd2aca781e19def032c7bb2722c98b21b56172f7aac074e5dd31fe6ee7,03302fd30a25eaf7bbe160db84257a08f5da706471d3b3b00f42a49c17f0f28e,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/metrics/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,3fb6da4ab315e0a69a7aec76c65f881db7885e0bfa83211d0020f13c472fe2d4,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/metrics/common.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,4a80cb5d0a1b55c874cc4b974dfe847c3a87b68bf24947121ddfde7d4837ebdc,1680600cbe92031ce8da4dc32ed807b70e466f5d0fa40e53fa64a61cd48ed602,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/metrics/fuzzy_entropy.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,eddfa61e13c605b6b288c8267d2d71780b93563ef930c7523e66e6145d18376f,4b171dd2ca56b3d78828c44780e032547a3f4d9670d0cfb405cad8b85fa5aa79,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/metrics/lyapunov.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,f1272ac6c46315f8877d0602a36013960aab1222720bc51dff2508bd9778e663,cc96dca11af5149e8156fe54f5b58741458627a94ae937fa3046553350ea9059,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/metrics/nonperiodicity.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,122a997061e9295c9acdb6206cf2abdc6a0da04cc9792e0c4acf0d4c9be77ce5,b62206860a4736faa730f0a83935c169ca1556bc07faff0a4535a63493961f40,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/metrics/permutation_entropy.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,e8189f256a37c9b489cc78f784e68fe02b9ab75b00590c0b195628a8c99519f8,e1b7d3a78d94846f763d35014610b2188c62296d4d940ab2eaeb09628be7efe0,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/metrics/sample_entropy.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,d04623760defe9ba08aaab09edcac6a80ead111c5f6e26e97f476233f8017be5,294f355d4ffa05c6c68249279f108514d8872b32e17d00bc6a1b99cfddadc244,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/metrics/spectral_entropy.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,1efa139e1fd6d5a812d58c2d9c2f848240ae585bbd3ccf9941fda0bff48b7d54,29b7a2a8c9ffe74888ba952ae3c54632d27d81662a90dbcd279764ddd19c1f18,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/r1ly_rev1.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a3fb40de690b001b2d5b6cb685b9e0ca9f05ffd05f9db7340b7d56ff27562cfc,30692a6616df30236b2341c76e3d1d03dfa3bc2754a935ff94911df45c207c14,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/rev1_common.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,444829c7182c14a9ea51ca0cd90e6c00287eff38732c32a26bf46b20f437ea95,1deb911a8ee06f46ebebd674af8cb8bdf7a78ec5e1d7645d70d790d3b90275e2,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/utils/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,3fb6da4ab315e0a69a7aec76c65f881db7885e0bfa83211d0020f13c472fe2d4,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/utils/fixed16.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,ec7f3ab18fe9bcc4aad1799db99a06a5e40061d53ea64047cc05e4b054f1f6fe,c4eb2391c95990637ba03e733d2411cd5093edfc205fad709a2c6c2dabcd79fd,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/utils/initializers.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,bf881c470d6c62873e1fc8e6ce5c00e51c83b31d0f8d5e1ce20a73b79a0ef179,353c4ebc8848f632fc5d1559f7671656e40c71ac7c09aef364eada90feee8b39,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/src/utils/safe_math.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,2f5a3fe92d450369b7288031cd2a9a8cfad67b22bdce277313e23c8515e30bbd,86be643186eb66ca10538a6bca760fac39fe36f8f1ed9d62a166fcef57e3c383,0,"# Maintainer: zhaowenbo
+"
+software/experiments_rev1_alignment/tests/test_semantics.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,468abbf59b01664b0d2342c0f899ac9a1328cc3fd3b1857624cd6c78692d9de7,857364aa4670e33aa86ae40469491e8e772dfe5d4a9083a36777bb263c66b63b,0,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/hw/src/prng_fast_model.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a54e067cdb111e84a8221428926d17d8c9b01c9cd46d017bc3502de3a98fee04,dff6be121bd95692d14ec506ab9963dde7c68f8ab9bfe8d85bc50cb36cfd362d,23,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/hw/src_371/golden_prng.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,aa9275d42fdbd19023a5e5315abb2b5e91c5cdb81fae79ce4f1ecac2cb2189ef,2941bf334662256bbad427e09584bb5a06de4ef7c9e7c08e97852ac03ccde880,23,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/scripts/compare_period_stats.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,0d9262aa3eb23b0035d450fa2c40e327d80262974d8406855db7c3f85a2d9a3b,0675d5d1d2e6dbc7facee0a5a860cdd42117cf8889819b5c7658eb948bb3ee7e,24,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/R1_LY_Complementary.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,2e6b26d9173029d208fcc850f9952d781692758c27bb4339d2f6f7a1d44c288a,cae0c1b17898fd18a0feb5b7b7be77d61136ad57975766b2a6f3ffd1f3fb9bf5,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,bd910b3de97dc817ce7a63d1cef2100bf61bf4f54de886b4e11abec543ed0432,7723f93e15a2848101f54742b7898eec14ed64ccc5bf7bf6c9838fec15e17756,0,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/_compat/analysis_dynamics/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,8b084a9f378124b2b1a51563bf3c22444eb7ff33692017da28b2136ae56987ed,06bd030807cbd32010d2f40c1b170da9d13abb64e8ff3609ae025c6a0c02664c,24,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/_compat/analysis_dynamics/diagnostics/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,3bd093d41d85f9c541f1e953d04a0225b82471f7e3be59aab5ea9abece208838,8ff3c1746bf738f99faeaee0b8ed7bf14971460d1e12b8e06356a90ee1d545d2,24,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/_compat/analysis_dynamics/diagnostics/orbit_diagnostics.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,51d4b3158198fd71e1f3a0fd04cb4849c7d6a6d39deea37b0d0dc6bfa629b2fa,35350b8e6f71703aed5b98efd9cea33b6a19fa29f4030e751b93aa1149579e3e,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/_compat/make_latex/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,3fb6da4ab315e0a69a7aec76c65f881db7885e0bfa83211d0020f13c472fe2d4,0,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/_compat/make_latex/make_F_and_latex.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,36985342c6a2fd9f6d74f90fbab9655c2e99cc9e44b1b834c3156b587d79ee07,c3c28699dd9f32c91a17c74e793a78d3d4ffc47e595f6d0e2c4af1653ca34930,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/_compat/make_latex/print_math_based_on_tex.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,9fcd9e37eb0b335c58e09a6e62302282b9c9bd0d01a489e448e7db72e762e9f3,75513de6ce927ea9d2774a527bc03869c2999a554936712be4a5c4b945ce09aa,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/_compat/plot_4d/plot_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,1c8f2d5b22b688834ff059d7a7f70198d4530632147b21d0b49e2c6fca6e5900,c1b7c96e198c9f3762a1d0f320ae303070dbe4258c047cb57842f9af9c402482,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/_compat/plot_4d/vis_highdim_chaos_4d_last200.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,f0d4c52b111b45fd992775bfb91b2964f880de15af1ed1748beabeed11da4266,3281a8437e68801eea667d28c245317cd8b3cfaee73485fa24b7a3230c8dedf4,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/_compat/sensitivity/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,3fb6da4ab315e0a69a7aec76c65f881db7885e0bfa83211d0020f13c472fe2d4,0,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/_compat/sensitivity/sensitivity_analysis.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,888fa425985877584f5c12332240f4d301aeb6933a47e26fe697065efe688645,abaf48e8a294e9b7daa6c3d97883a71e103a80dcdcba9559b88c1f17172463cf,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/_compat/sensitivity/sensitivity_individual_plots.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,97b642967467f295ab5c2fff8ce2117214db1da6eeb886533920bdb8f1c8bcaa,d0aed6204b0216beeac26a205dba3de8661d0deffee7401e608594660345e9b0,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/_compat/stats_hd_cdf/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,3fb6da4ab315e0a69a7aec76c65f881db7885e0bfa83211d0020f13c472fe2d4,0,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/_compat/stats_hd_cdf/stats_hd_cdf_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,68494015ce1775c76d819095834809902a02e76c2c350f870470ee2b3960587a,0e795ec1b523c9c871ad2d54a05fdfd09934a06921366d187b6973257cbec30d,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/_compat/stats_hd_cdf/stats_hd_cdf_nd.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a0b1c677092bce0770b70b0e43f6493f673693c40af10f4e480db983eb9826ab,9adab9825acc78120bee9092083699ed92d9b32be92b7f0f8430df82ea6ee9fc,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/analysis/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,54a055f13d0b12da4a9429b2a14a776d2c744314168929e0cb1e2d9689e42c5c,4135085f570cfe5ebcc91ad9bd3c8bb6f8db8a5650c95e39e9da148e6f0f7399,0,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/analysis/distribution.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,d79a3988cef2956bd1eb24a2f8f04650d4cb858245b1bbee67c077e47dd8cab9,72e58f56d522ad9ab02cc8e2fb316a4b78265327dc0b43c9bb03877cd034fdff,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/analysis/lyapunov.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,cbb81e293160f00b113347224c9c0d84ab94a76cec1fbd728d1b28445131ca6a,6f42fc1dc0e21fb22c647126485fb349fc290c15b66c07417394c36c3f787d4d,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/analysis/orbit.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,cea0a766546576e8c2f0c0e660b60d44df43a36dfe45739934445560eb58fe05,3eeb43ceee67fd299b60123a2e81de7c7791fcbae804e13516f2269c6cfa8888,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/analysis/sensitivity.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,27812b90c400563b23330d42946e6dd688ed3a9f2835816603095ce9545f5c0d,5c7032f98b2d4044cccb49566bf1fc4ddd482e7cd1e6a027f73f8033c66a8678,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/analysis/wolf.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,fe5e90c108bb71a17531c3b2fd6e06d015e6b765acead64c5bc81a5d22ca2941,9781b83e80dc91f9e60ee7d20379134f6701e143ad37453b87cf5ecdefc13740,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/application/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,1711e09ea508dd670ee3390a5c5388e277591227f296b0d09c50999d44ebbfb4,20579d54b27d504035fbef14c025283b02c004c635672ec08b82039b51a668e4,0,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/application/prng/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,e49fc567c60c2ec89aa4b12cad6a230a200d88a87e19e565208f63034b70f895,c5e94bc08d83ac654e466d7a82c644007d1571c8c8e3a84685e3a4ac50714e34,0,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/application/prng/post_processor.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,ccc214da68f5390474d85ea8902511754f1554a492a900d7ca4697751a3da4ef,426f78bbc99daa7ac0306a13f4e60ac9b189d544f33458f33a8861e6255763e3,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/application/prng/prng.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,6b5c47224dc0f7587edfdb7fee5a3c4acd6e4d4a3b64bc50e1777796a031c712,7c49645ed3c35b1318bc341947f516d4be4c61ddffd93f74f548d97de29951ad,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/application/prng/prng_export.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,6ebe67ffb93ceabf1a2b85b4694c2b3164e8e67f42aa17019c4852832ce6b506,12f4114e9294a45cc38d805c81d07ce42251b76bfad21a550ff08498eca36586,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/application/prng/prng_export_371.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,270bbd41447c4c9fbac6c237883d89ed0dd8fe11440bcce6359190c1a3ea2113,44ebd70baf4bea1226e90c6480711808f79ec465d1bf065fc135feca5b370c68,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/core/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,01d63473be36d042f5eadc2e0bc35ff0935a26b6d68654e8eef83e89e9a00a38,3f706a2eb6dea7edebcaf699244df818de7ff2a7bb352ba4e3cfcd7d61dcc870,0,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/core/base_map.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,8ad8335ee3afb27697236d49cb58beb0da3bc7c2a355b4f5975d51adc6c81347,aa09670aed8728f0198e51690e9d83ecac1b3fdc09aecbd4feeb7331794a2ed9,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/core/enhanced_map.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,ca954d57de1826976af50fcfb8a2458cf673769e8522a422faeaa5c69cf9f7f1,3678ee0edc5b1a7e5c2fd25888dbb2bbab09b9eb8359248c6a92390bd7540bf6,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/core/params.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,322649362f6528d9bbf941659bbc9c5be5c63d67aee5a798b3848c1fee9ee895,4cc272482200ae2a584ead7c2d43dec2cf47f8a9074ebd0171ddf9439510d89b,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/utils/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,ab49c6aaeb852298c9b95c4693e2fc63ee95b242575fde04b5229a06168ea301,f7a25861f52e4afadcbc591ede4fb4706d3d3ef2c417e3452894a4bffb4ce243,0,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/utils/latex.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,380637241dd706cb9b1467abdb128477273fa99192537999eca08abeb05f1b4f,a40a154d4983a04296ede170b29a4fd48c13987071dc4b807a93a483b539312f,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/utils/sequence.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,d216158925dfa91f76fbdb31491a367343befb8c30b094487ba028cabad944e8,ad6b36d01efc8db473943d39426da6b86a25615b5df12256f7f9269c6ef2f6bf,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/visualization/__init__.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,86af32d838dafc5c8f68fbcc23cd654086f8343378af3b10d862ab9a2675272c,544efab2dd963e404ed7a8f9687da94d265fa13f80523551fbd794e2aa12d5f3,0,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/visualization/plot_4d.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,4d373e635baa1f4db56aedd65dcb5a132795e6fd51db0befe8097677ee6262cb,6ea02ac984d61f54cda521fde05889da4c2cdb435c99b729d276a08e14a972b1,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/visualization/sensitivity_plots.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,6819f5737592bd55284e09246c9a6f000e287a8fb49db24d72b39b802e650927,e8d6053bcd829a8dee3057a01390cabf046ccd3723bfa50972e5ed98a05d59ac,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/src/chaos/visualization/verification.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,0faf5bc75b4acfa80ceb27b709bbdeef4e5e8d5f6a16420e112df941b9730522,5928d8f26d2bd6550c43aeced93cc942ebfa2693b86a7d198c825eac67a9ba22,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/tests/prng_export.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,5e20c0f29d92ce2dbc25ee7bfc415773ff97eb27f29bb708585d895f722aadbc,908f6d3cad06d4561fce4aff7b7346ef4ac212329cd99d75b08567d8ebae9ab4,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/tests/prng_export_371.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,270bbd41447c4c9fbac6c237883d89ed0dd8fe11440bcce6359190c1a3ea2113,44ebd70baf4bea1226e90c6480711808f79ec465d1bf065fc135feca5b370c68,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/tests/test_analysis.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,aa3a16e8d4c85251c0c632bb775112836fa929749f219027cefabd04faded735,0d6371c047451b409b52504dab8fdc063b47aeecc030c46d13ccc3d55c500e7a,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/tests/test_basic.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,0587ba7482bde36fccbbabf0e6bfb214e96d32a0c24b2bd7a6892b30d53dc0f6,f967e863e14bb67fa36102d1edefea0475974faf9234e212205f3b5fdbf3504e,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/tests/test_basic_enhanced.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,e86526e9b745e95c5bb86e42b5659b848975a1c3f47573e75c9840a3b69a6f33,73efd4a01ba1f2a9777bc07f2b3e93fef03fcb640c184c0588505be66e78037f,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/tests/test_core.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,ffd5151a9d25e9ae17179839d65fb048ab5b193eb052b97a1a641eeac60f6472,c72740384049aa806e5b88f13fbdb13b616de2cffadd754131760202f4b1e99a,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/tests/test_prng.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,6c8eadc2e4f1c5e5a4f238aa3649f7c2c47eb34721716851d05c3a3c9bf2ab84,bbfc5d58d9b42eaa6b50bc7f54baf2038935fdbf290e6875b70d1061e16ab71d,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/tests/test_r1_ly_generation.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,cfbca03c377f0189b9cefe3a1e47171b05bbd4e4f694c8d0978d925219a66c3b,e781804a990bd183fedcab7fb18c20e489e6dc6bf22a1b453deb36fc6c51e402,47,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/tests/test_stream_cipher_371.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,694fcb8815757501f63124e72398aa32ecb31b24ca733b17a9e1764b544d8dce,ed1aede6c55bcea11c04caccbb18c06278e38e5ef40f19353438be50f6486d89,23,"# Maintainer: zhaowenbo
+"
+software/hd_chaos_project/tools/analyze_reports.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,c4a41eab7b068ec759593c5d965c34f450499da7ff96ec9c6f39add64f0ce78b,41ec4e587892df66e4065875dc3493667f8ed30034bdbcc8af6cf1d5ecaf98d0,23,"# Maintainer: zhaowenbo
+"
+software/prng371/golden_prng.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,aa9275d42fdbd19023a5e5315abb2b5e91c5cdb81fae79ce4f1ecac2cb2189ef,2941bf334662256bbad427e09584bb5a06de4ef7c9e7c08e97852ac03ccde880,23,"# Maintainer: zhaowenbo
+"
+software/stored_data.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a41f7988df9c127d1cee59740484a8652eda803582cc55ca30bc6a8d386a980e,c916050ecc1755b983b171d0b8216d2a3eedfea780ad80a2bccc37aae0b0848b,23,"# Maintainer: zhaowenbo
+"
+data/cooja/04_program_list/Makefile,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,6908c27be34dcf446659f6971b394de5170e13a7267afe3e7a29a76146a67cd5,b6f5c09162f2d78bc4de3750f2ede951d2cb990fe4c4a4dd0e2bf6502ae470ca,0,"# Maintainer: zhaowenbo
+"
+data/cooja/04_program_list/capture_relay_images.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,bb43fca07f17ea51860a018643e94e903b5cdb9bc9ccbb91df92879418585b00,9793c30e138a27668e644a075b9e33c310df17b8d3de8cc38b9bcf980d327773,23,"# Maintainer: zhaowenbo
+"
+data/cooja/04_program_list/gateway-node.c,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,22d1d32d5d259b221548b9d1aff5b95f44cc119de78b86013b6d2d833902f7ba,1d2184f057177f4ca10346f278c68e755d11d62b60348e6c4d708ce947ef31e5,0,"// Maintainer: zhaowenbo
+"
+data/cooja/04_program_list/generate_paper_figures.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,ff04b703e88a0b253ae891a70a65dff9b25a4080790175fe20a730204a3dd796,a74cc5d10db6a40c4ace56d5cadeb676c3bf2b4f4c4d07603f5b18c1a70931e4,23,"# Maintainer: zhaowenbo
+"
+data/cooja/04_program_list/prng371.c,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,8eb2733d66c8f85f3a136ecc52bded2b0badf396bd0b69aa58c920b4b7b6eaac,08004ab73cd0ca133ba97f748b93e3a73fb99b449036a89f36922299b85f3ef3,0,"// Maintainer: zhaowenbo
+"
+data/cooja/04_program_list/prng371.h,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a07f1d7170d9f83fdf5d94e75670e30920d8e97d18da126cd6fb6b9ae54cc634,4e6b75acf9950c15a21af355cf8a4b01a37d7e6662984b52153d01da1d3f272a,0,"// Maintainer: zhaowenbo
+"
+data/cooja/04_program_list/relay-node.c,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a448ca33a636108b78129b897fcac671631c4d83b59584a6a6091f2bf32dbf65,c2d26cf145262ad80243139ad40863e63b10b26624f2bedd1f2a592abf12c9be,0,"// Maintainer: zhaowenbo
+"
+data/cooja/04_program_list/sensor-node.c,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,807ddfae1a3167eb12d4f10ca03c7213a155c0ebd30c81ec31186ee8798be025,e2a7609db8d57cb7981e78bf5289312a3e6dc82bc0037cb3f006991f5d5120bf,0,"// Maintainer: zhaowenbo
+"
+data/cooja/04_program_list/simulation.js,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,af69fa52cbf893c5f7f7bc7d4749a1e38ec4d90a285b927cc31ca17cf0692df4,bdec806473bf70ad6fdeaa4c55649ba6ee4a8140e59ae1bc4c7b58dbcdac70c9,0,"// Maintainer: zhaowenbo
+"
+data/cooja/cooja_sim/Makefile,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,6908c27be34dcf446659f6971b394de5170e13a7267afe3e7a29a76146a67cd5,b6f5c09162f2d78bc4de3750f2ede951d2cb990fe4c4a4dd0e2bf6502ae470ca,0,"# Maintainer: zhaowenbo
+"
+data/cooja/cooja_sim/capture_relay_images.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,34aedcb8a0558efee0f58ab5f8849142e1ed0753d16e0d799fd3f50c472d4097,0598e7f433e3de4a4fe5abdeef5746c644636f6e6d46d0aca6495a90a39cf8b3,23,"# Maintainer: zhaowenbo
+"
+data/cooja/cooja_sim/gateway-node.c,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,22d1d32d5d259b221548b9d1aff5b95f44cc119de78b86013b6d2d833902f7ba,1d2184f057177f4ca10346f278c68e755d11d62b60348e6c4d708ce947ef31e5,0,"// Maintainer: zhaowenbo
+"
+data/cooja/cooja_sim/generate_paper_figures.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,ff04b703e88a0b253ae891a70a65dff9b25a4080790175fe20a730204a3dd796,a74cc5d10db6a40c4ace56d5cadeb676c3bf2b4f4c4d07603f5b18c1a70931e4,23,"# Maintainer: zhaowenbo
+"
+data/cooja/cooja_sim/prng371.c,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,8eb2733d66c8f85f3a136ecc52bded2b0badf396bd0b69aa58c920b4b7b6eaac,08004ab73cd0ca133ba97f748b93e3a73fb99b449036a89f36922299b85f3ef3,0,"// Maintainer: zhaowenbo
+"
+data/cooja/cooja_sim/prng371.h,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a07f1d7170d9f83fdf5d94e75670e30920d8e97d18da126cd6fb6b9ae54cc634,4e6b75acf9950c15a21af355cf8a4b01a37d7e6662984b52153d01da1d3f272a,0,"// Maintainer: zhaowenbo
+"
+data/cooja/cooja_sim/relay-node.c,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,a448ca33a636108b78129b897fcac671631c4d83b59584a6a6091f2bf32dbf65,c2d26cf145262ad80243139ad40863e63b10b26624f2bedd1f2a592abf12c9be,0,"// Maintainer: zhaowenbo
+"
+data/cooja/cooja_sim/run_experiment.sh,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,07cc76e33a85a5d7f18b701a2fff7278fb0a2ad8e02966f56f5e82382be60291,5f2fdda2ba222e376b42c86d2e727d87fbfbc74ec77e736b6cd1f3e8bd3708b8,12,"# Maintainer: zhaowenbo
+"
+data/cooja/cooja_sim/sensor-node.c,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,807ddfae1a3167eb12d4f10ca03c7213a155c0ebd30c81ec31186ee8798be025,e2a7609db8d57cb7981e78bf5289312a3e6dc82bc0037cb3f006991f5d5120bf,0,"// Maintainer: zhaowenbo
+"
+data/cooja/cooja_sim/simulation.js,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,3db3926abaf54c34bc520ecbf5e96a3d507454d3d2466fb3935d60cf6855582c,1bbdc3aa117e1748863824b28d4179789cb978adf3b6c45cabfb1dc4631c6ae4,0,"// Maintainer: zhaowenbo
+"
+data/cooja/generate_evidence_and_assets.py,maintainer,Provenance records pending author and third-party review; no verified file-level authorship.,bb6c7afd1c0af533c6af72ee3946339414fcc50de7933ae68ab233a9f9959cd0,5503a8aba378852bd4be99c0628ea805d36a21223089d60a5e5c0803d2c2d27f,23,"# Maintainer: zhaowenbo
+"

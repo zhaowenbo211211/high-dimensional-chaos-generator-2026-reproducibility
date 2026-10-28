@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hd-chaos"
+version = "1.0.0"
+description = "High-dimensional chaotic map generator for lightweight cryptography"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.20",
+]
+
+[project.optional-dependencies]
+viz = ["matplotlib>=3.3"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

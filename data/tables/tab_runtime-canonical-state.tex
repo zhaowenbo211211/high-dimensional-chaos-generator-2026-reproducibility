@@ -1,0 +1,42 @@
+\begin{table}[pos=t,width=238.25444pt]
+  	\centering
+  	\begin{minipage}{\ifdim\linewidth>238.25444pt238.25444pt\else\linewidth\fi}
+  		
+  		\caption{Canonical state requirements for representative
+  			dimensions and nine independent dimension contexts.}
+  		\label{tab:runtime-canonical-state}
+  		
+  		\fontsize{9}{10.5}\selectfont
+  		\renewcommand{\arraystretch}{1.12}
+  		\setlength{\tabcolsep}{2pt}
+  		
+  		\begin{tabular}{@{}rrrrr@{}}
+  			\toprule
+  			\makecell{Dimension\\$n$} &
+  			\makecell{Current\\words} &
+  			\makecell{History\\words} &
+  			\makecell{Canonical\\words} &
+  			\makecell{Canonical\\bits ($W=16$)} \\
+  			\midrule
+  			4  & 4  & 2  & 6   & 96   \\
+  			8  & 8  & 6  & 14  & 224  \\
+  			12 & 12 & 10 & 22  & 352  \\
+  			\midrule
+  			\multicolumn{1}{@{}l}{Total 4--12}
+  			& 72 & 54 & 126 & 2016 \\
+  			\bottomrule
+  		\end{tabular}
+  		
+  		\par\vspace{3pt}
+  		\begin{minipage}{\linewidth}\footnotesize
+  			The total assumes one independent canonical
+  			context per dimension ($n=4,\ldots,12$).
+  			These payloads exclude active current/next
+  			copies, implementation context, coefficient
+  			records, metadata, transfer shadows, and
+  			memory granularity; they do not represent
+  			FF/BRAM utilization or total hardware cost.
+  		\end{minipage}
+  		
+  	\end{minipage}
+  \end{table}

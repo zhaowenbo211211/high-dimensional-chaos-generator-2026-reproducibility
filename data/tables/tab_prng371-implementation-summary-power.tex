@@ -1,0 +1,42 @@
+\begin{table}[pos=t,width=238.25444pt]
+	  	\centering
+\begin{minipage}{\ifdim\linewidth>238.25444pt238.25444pt\else\linewidth\fi}
+
+	  	\caption{Post-route implementation results and Vivado power estimates for the full PRNG-371 datapath on Zynq-7020 (\texttt{xc7z020clg400-1}).}
+	  	\label{tab:prng371-implementation-summary-power}
+	  	\fontsize{9}{10.5}\selectfont
+	  	\renewcommand{\arraystretch}{1.12}
+	  	\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{.34\linewidth} >{\raggedright\arraybackslash}X@{}}
+	  		\toprule
+	  		Result item & Value \\
+	  		\midrule
+	  		Output rate & 64 bits/cycle (6,400~Mb/s at 100~MHz) \\
+	  		LUTs & 500 \\
+	  		FFs & 370 \\
+	  		DSPs & 1 \\
+	  		BRAMs & 0 \\
+	  		Timing WNS / WHS & +0.549~ns / +0.106~ns \\
+	  		Total on-chip power & 0.126~W \\
+	  		Dynamic power & 0.020~W \\
+	  		Static power & 0.106~W \\
+	  		Dynamic energy/bit & 3.13~pJ/bit \\
+	  		Total energy/bit & 19.69~pJ/bit \\
+	  		\bottomrule
+	  	\end{tabularx}
+	  	\vspace{2pt}
+	  	\begin{minipage}{0.94\linewidth}
+	  		\footnotesize
+	  		Power values are Vivado post-implementation
+	  		on-chip estimates based on the default
+	  		vector-less switching activity model,
+	  		without SAIF/VCD back-annotation
+	  		(Vivado confidence: medium).
+	  		They are not board measurements and are not
+	  		used for cross-study power ranking.
+	  		The dynamic energy per bit is derived from
+	  		the estimated dynamic power and the stated
+	  		output rate.
+	  	\end{minipage}
+	  \end{minipage}
+\end{table}

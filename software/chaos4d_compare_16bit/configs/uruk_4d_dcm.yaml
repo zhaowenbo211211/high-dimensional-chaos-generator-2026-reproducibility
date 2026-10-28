@@ -1,0 +1,9 @@
+map:
+  name: URUK4DDCMMap
+  family: URUK-4D-DCM
+  semantics: float_update_safe_tan_mod1_wrap_then_u16_quantization
+  init_float: [0.1, 0.2, 0.3, 0.4]
+  a: 0.05
+  b: 0.05
+  c: 0.05
+  d: 0.05

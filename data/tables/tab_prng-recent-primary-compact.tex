@@ -1,0 +1,47 @@
+\begin{table*}[t]
+	\centering
+	\caption{FPGA resource and throughput comparison
+		of PRNG-371 and selected recent chaotic PRNGs.}
+	\label{tab:prng-recent-primary-compact}
+	\footnotesize
+	\renewcommand{\arraystretch}{1.12}
+	\setlength{\tabcolsep}{3.8pt}
+	\begin{tabular}{@{}llrrrrrrc@{}}
+		\toprule
+		\multicolumn{2}{c}{Identification} & \multicolumn{3}{c}{Performance} & \multicolumn{2}{c}{Resources} & \multicolumn{2}{c}{\makecell{Resource-normalized \\ throughput}} \\
+		\cmidrule(lr){1-2}\cmidrule(lr){3-5}\cmidrule(lr){6-7}\cmidrule(l){8-9}
+		Method & FPGA device & \makecell{Clock\\(MHz)} & \makecell{Thrpt.\\(Mb/s)} & b/cyc. & LUTs & FFs & \makecell{b/cyc.\\/LUT} & \makecell{b/cyc.\\/FF} \\
+		\midrule
+		\textbf{PRNG-371} & \textbf{Zynq-7020} & \textbf{100.00} & \textbf{6,400} & \textbf{64.00} & \textbf{500} & \textbf{370} & \textbf{0.128} & \textbf{0.173} \\
+		3D-NDCS~\cite{Luo2024} & Artix-7 100T & 200.00 & 15,000 & 75.00 & 521 & 671 & 0.144 & 0.112 \\
+		\makecell[l]{4D discrete\\hyperchaotic~\cite{Li2023FourDHyperchaoticPRNG}} & Artix-7 100T & 50.05 & 12,811.53 & 256.00 & 3,555 & 2,366 & 0.072 & 0.108 \\
+		TL-COTDCM~\cite{Li2023TLCOTDCM} & Kintex-7 325T & 120.51 & 10,283.52 & 85.33 & 4,694 & 2,227 & 0.0182 & 0.0383 \\
+		3D multi-scroll~\cite{Peng2023MultiDoubleScrollPRNG} & Artix-7 35T & 100.00 & 7,200 & 72.00 & 762 & 337 & 0.0945 & 0.214 \\
+		DTM-HNN~\cite{Bao2026DTMHNNPRNG} & Zynq-7020 & 100.00 & 473 & 4.73 & 3,057 & 4,398 & 0.00155 & 0.00108 \\
+		MDDT~\cite{Li2024MDDTPRNG} & Kintex-7 325T & 150.00 & 14,400 & 96.00 & 878 & 558 & 0.109 & 0.172 \\
+		\bottomrule
+	\end{tabular}
+	\par\vspace{2pt}
+	\begin{minipage}{0.98\linewidth}
+		\footnotesize
+		State/output structures are omitted because
+		they are not specified consistently across
+		the cited studies. Reported throughput values
+		reflect different FPGA families and output
+		conventions and are not fully comparable.
+		Bits/cycle (b/cyc.) is calculated from reported
+		throughput and clock frequency; per-resource
+		values additionally use the corresponding
+		LUT and FF counts. The PRNG-371 values refer
+		to the full-datapath implementation in
+		Table~\ref{tab:prng371-implementation-summary-power}.
+		Device names are abbreviated.
+		
+		For Bao et al., LUT and FF counts follow
+		Table~5 of the cited study, although its
+		accompanying prose reverses their assignment.
+		The reported 473~Mb/s is the theoretical
+		generation rate, whereas 432~Mb/s is the
+		measured transmission rate.
+	\end{minipage}
+\end{table*}

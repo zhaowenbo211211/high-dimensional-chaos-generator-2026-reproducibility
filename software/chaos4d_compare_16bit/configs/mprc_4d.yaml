@@ -1,0 +1,13 @@
+map:
+  name: MPRC4DMap
+  family: 4D-MPRC
+  semantics: float_update_safe_trig_cross_terms_mod1_wrap_then_u16_quantization
+  init_float: [0.1, 0.2, 0.3, 0.4]
+  a: 1.9
+  b: 5.0
+  c: 23.0
+  d: 6.7
+  e: 2.0
+  f: 4.0
+  g: 9.6
+  h: 3.5

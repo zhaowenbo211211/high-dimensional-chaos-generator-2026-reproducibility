@@ -1,0 +1,6 @@
+# Candidate runtime bounds, not a historical or tested environment lock.
+# Python >= 3.10; Python 3.12 is the recorded historical experiment version.
+numpy>=1.24
+matplotlib>=3.8
+PyMuPDF>=1.23
+PyYAML>=6.0

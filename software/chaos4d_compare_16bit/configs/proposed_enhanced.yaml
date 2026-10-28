@@ -1,0 +1,16 @@
+map:
+  name: Proposed4DEnhancedMap
+  base:
+    n: 4
+    generator: R1-LY
+    A_odd: 371
+    B_even: 50
+    Delta: 2
+    eta: 61
+    a_linear: [371, 373, 375]
+    a_coupling: [50, 48, 46]
+    b: 111
+    x4_delay_u16: [0, 0]
+  enhancer:
+    rotation_period: 15
+    word_bits: 16

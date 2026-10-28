@@ -1,0 +1,49 @@
+\begin{table}[pos=t,width=238.25444pt]
+  	\centering
+\begin{minipage}{\ifdim\linewidth>238.25444pt238.25444pt\else\linewidth\fi}
+
+  	\caption{NIST SP 800-22 statistical results
+  		for PRNG-371. Multi-row test families are
+  		summarized using average uniformity
+  		$p$-values and pass proportions.
+  		The Random Excursions tests use
+  		52 eligible sequences.}
+  	\label{tab:prng371-nist-summary}
+  	\fontsize{8}{9.5}\selectfont
+  	\renewcommand{\arraystretch}{1.05}
+  	\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{.38\linewidth}r r c@{}}
+  		\toprule
+  		Test item & \makecell{Uniformity\\$p$-value} & \makecell{Mean pass\\proportion} & Summary \\
+  		\midrule
+  		Frequency & 0.997823 & 99/100 & Pass \\
+  		Block Frequency & 0.096578 & 99/100 & Pass \\
+  		Cumulative Sums (Forward) & 0.595549 & 98/100 & Pass \\
+  		Cumulative Sums (Backward) & 0.304126 & 97/100 & Pass \\
+  		Runs & 0.008266 & 100/100 & Pass \\
+  		Longest Run & 0.181557 & 100/100 & Pass \\
+  		Rank & 0.678686 & 100/100 & Pass \\
+  		FFT & 0.851383 & 100/100 & Pass \\
+  		Non-overlapping Template & 0.507384 & 98.878/100 & Pass\textsuperscript{$\dagger$} \\
+  		Overlapping Template & 0.096578 & 100/100 & Pass \\
+  		Universal & 0.419021 & 100/100 & Pass \\
+  		Approximate Entropy & 0.115387 & 98/100 & Pass \\
+  		Random Excursions & 0.471596 & 51.875/52 & Pass \\
+  		Random Excursions Variant & 0.456889 & 51.611/52 & Pass \\
+  		Serial 1 & 0.834308 & 98/100 & Pass \\
+  		Serial 2 & 0.554420 & 96/100 & Pass \\
+  		Linear Complexity & 0.023545 & 98/100 & Pass \\
+  		\bottomrule
+  	\end{tabular}
+  	\par\vspace{2pt}
+  	\begin{minipage}{\linewidth}
+  		\footnotesize\raggedright
+  		\textsuperscript{$\dagger$}\enspace Among the 148 Non-overlapping Template Matching
+  		subtests, one was flagged (95/100 passing
+  		sequences; uniformity $p$-value = 0.816537);
+  		the remaining 147 were not flagged.
+  		The family-level summary label does not imply
+  		that all individual subtests passed.
+  	\end{minipage}
+  \end{minipage}
+\end{table}

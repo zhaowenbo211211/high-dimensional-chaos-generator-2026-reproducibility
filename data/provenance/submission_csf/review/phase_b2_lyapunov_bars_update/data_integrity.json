@@ -1,0 +1,225 @@
+{
+  "source_hashes": {
+    "expB_golden_range/golden_range_le.csv": "a9603d8bf3a3d4d8eb8f02cbd5cdd756133a5219c879fb4c8cbaea4066ed0694",
+    "expB_golden_range/golden_range_se.csv": "0d7aa60a7b3c25c95c70584929edfd2b26bf2e7d1c3109ebae53acd7c1bf542a",
+    "expB_golden_range/golden_range_fe.csv": "4e1433f472173cdd470d0bcedc9e462983bef755589f48724d2b23fb73d52458",
+    "expB_golden_range/golden_range_pe.csv": "579f6ded60d711237fba3e68b1b1eb5437e8231658126769c912eb408a1377eb",
+    "expB_golden_range/golden_range_si.csv": "18ac5c82836596d229129c4409773f74c205a67ffff7e0857101337a47288091",
+    "expE_high_dim_literature/high_dim_all_methods_summary.csv": "4915633f7a590b455f86004e58d18976a7da2b5716c5557a73c282fcf0aa8744"
+  },
+  "array_reference": "submission_csf/review/phase_b2_lyapunov_restructuring/data_integrity.json",
+  "all_ten_panel_selected_arrays_exactly_equal_to_b2": true,
+  "target_source": "expE_high_dim_literature/high_dim_all_methods_summary.csv",
+  "target_field": "lambda_max",
+  "series_count": 5,
+  "data_point_count": 45,
+  "series": [
+    {
+      "method_slug": "proposed_rev1",
+      "series_name": "The proposed method",
+      "display_label": "Proposed",
+      "field": "lambda_max",
+      "x": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "y": [
+        8.568068121385355,
+        8.640001419192886,
+        8.66355686396328,
+        8.651416963465435,
+        8.694522863522986,
+        8.60005270413033,
+        8.549650000120339,
+        8.601408441340352,
+        8.575750476935688
+      ],
+      "x_exactly_equal_to_b2": true,
+      "y_exactly_equal_to_b2": true,
+      "rendered_bar_heights_exactly_equal": true,
+      "point_count": 9,
+      "xy_sha256": "3024bb562a746521c3e1c8adebec4ec0406e5ddb88aa1b8b874b3c65859924b9",
+      "color": "#0072B2",
+      "hatch": "",
+      "display_offset_within_integer_n_group": -0.36
+    },
+    {
+      "method_slug": "yao_complex_pascal",
+      "series_name": "Yao et al.'s method",
+      "display_label": "Yao et al.",
+      "field": "lambda_max",
+      "x": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "y": [
+        7.8971064509875974,
+        10.372959629465011,
+        10.531799246541553,
+        10.535268110340057,
+        10.572914217773263,
+        10.60187568326107,
+        10.622900671792411,
+        10.627243026222004,
+        10.646901307099684
+      ],
+      "x_exactly_equal_to_b2": true,
+      "y_exactly_equal_to_b2": true,
+      "rendered_bar_heights_exactly_equal": true,
+      "point_count": 9,
+      "xy_sha256": "5a877fbd865ea31fe6bce4b923a8744fd508a4d15fc9ddad6282741fe1cbecdf",
+      "color": "#E69F00",
+      "hatch": "//",
+      "display_offset_within_integer_n_group": -0.18
+    },
+    {
+      "method_slug": "sine_lattice_memristive",
+      "series_name": "He et al.'s method",
+      "display_label": "He et al.",
+      "field": "lambda_max",
+      "x": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "y": [
+        0.6519147217798292,
+        0.6534994551746324,
+        0.656349443818391,
+        0.6408463720817057,
+        0.6550172818992401,
+        0.6441319251809763,
+        0.6530652484417339,
+        0.6543847808827112,
+        0.6506910681746384
+      ],
+      "x_exactly_equal_to_b2": true,
+      "y_exactly_equal_to_b2": true,
+      "rendered_bar_heights_exactly_equal": true,
+      "point_count": 9,
+      "xy_sha256": "9a65469f48508de833d72278bb1d6c70ec02928c542991145a9ab87999b66415",
+      "color": "#009E73",
+      "hatch": "\\\\",
+      "display_offset_within_integer_n_group": 0.0
+    },
+    {
+      "method_slug": "cyclic_symmetric_logistic",
+      "series_name": "Zhang et al.'s method",
+      "display_label": "Zhang et al.",
+      "field": "lambda_max",
+      "x": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "y": [
+        0.6460144181189231,
+        0.6119996379074849,
+        0.6157545008954786,
+        0.5732537636778996,
+        0.6380869219951462,
+        0.6205307252678276,
+        0.6293561084850264,
+        0.6145377003674047,
+        0.6227799600979353
+      ],
+      "x_exactly_equal_to_b2": true,
+      "y_exactly_equal_to_b2": true,
+      "rendered_bar_heights_exactly_equal": true,
+      "point_count": 9,
+      "xy_sha256": "da5dadc60e65380694ff5f41f3142e1324c2131d72bb699ae18c0d4c992a8196",
+      "color": "#AA3377",
+      "hatch": "xx",
+      "display_offset_within_integer_n_group": 0.18
+    },
+    {
+      "method_slug": "zang_linear_modular",
+      "series_name": "Zang et al.'s method",
+      "display_label": "Zang et al.",
+      "field": "lambda_max",
+      "x": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "y": [
+        0.8668164772678195,
+        0.9050918665503659,
+        0.9157169645849763,
+        0.9291603385209637,
+        0.9421996749585638,
+        0.9324285261308436,
+        0.9465285645595611,
+        0.9513604970976934,
+        0.956205236863607
+      ],
+      "x_exactly_equal_to_b2": true,
+      "y_exactly_equal_to_b2": true,
+      "rendered_bar_heights_exactly_equal": true,
+      "point_count": 9,
+      "xy_sha256": "6ca57bde5e296e9c2463bd521c5fe8edaf771a09523de4a3cba6c35d9b66ccba",
+      "color": "#999999",
+      "hatch": "..",
+      "display_offset_within_integer_n_group": 0.36
+    }
+  ],
+  "left_native_sha256_unchanged": "36e15cc24e4be0f501be33056edc3c856d556a9246075e65aa921b8aefb6f936",
+  "physical_geometry_mm": {
+    "combined": [
+      159.2,
+      59
+    ],
+    "native_panel": [
+      76.416,
+      54.0
+    ],
+    "axes_from_bottom_left": [
+      14,
+      9,
+      59.916,
+      30.5
+    ]
+  },
+  "axis_font_bp": 8.5,
+  "tick_legend_font_bp": 7.5,
+  "axis_y_range": [
+    0,
+    12
+  ],
+  "display_encoding": "Original integer n group centres; method offsets only within each group",
+  "DATA VALUES CHANGED": "NO",
+  "SCIENTIFIC METRICS RECOMPUTED": "NO",
+  "EXPERIMENTS RERUN": "NO"
+}

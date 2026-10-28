@@ -1,0 +1,43 @@
+{
+  "variant": "chaos_prng_371 / PRNG-371",
+  "expansion_coefficients": [
+    371,
+    373,
+    375
+  ],
+  "coupling_coefficients": [
+    50,
+    48,
+    46
+  ],
+  "B_VAL": 111,
+  "word_size": "16-bit",
+  "physical_state_dimension": "4D",
+  "internal_delayed_state": "6 words",
+  "warmup": 2000,
+  "seed": [
+    1000,
+    2000,
+    3000,
+    4000
+  ],
+  "byte_order": "little-endian per 64-bit output word in golden_prng.py",
+  "num_sequences": 100,
+  "bits_per_sequence": 1000000,
+  "total_bits": 100000000,
+  "total_bytes_generated": 12500000,
+  "format": "ascii_bits",
+  "generator_module": "${PYTHON_PROGRAM_SOURCE}/prng/hw/src_371/golden_prng.py",
+  "output_file": "prng_experiment/randomness/prng371_warmup2000/input/prng371_warmup2000_100x1000000.asc",
+  "binary_file": "prng_experiment/randomness/prng371_warmup2000/input/prng371_warmup2000_100x1000000.bin",
+  "ascii_file": "prng_experiment/randomness/prng371_warmup2000/input/prng371_warmup2000_100x1000000.asc",
+  "output_sha256": "0952f43ed4901b70fcdf6a01df90e552bfbf6ad4b532a09a32e8fba126ed87b4",
+  "binary_sha256": "7a8f9c4f411363acd878b6cb2008719267e2b29bb87fba625e4d10bc43ebab97",
+  "ascii_sha256": "0952f43ed4901b70fcdf6a01df90e552bfbf6ad4b532a09a32e8fba126ed87b4",
+  "golden_ref_alignment": {
+    "golden_ref_path": "${PYTHON_PROGRAM_SOURCE}/prng/hw/src_371/golden_ref_371.txt",
+    "checked_words": 16,
+    "match": false,
+    "first_mismatch_index": 0
+  }
+}

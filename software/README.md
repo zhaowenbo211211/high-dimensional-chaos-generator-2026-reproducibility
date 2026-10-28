@@ -1,0 +1,13 @@
+# Software candidate
+
+Rights and redistribution permissions for every file are pending confirmation; no license is assigned here. Scientific code was not executed during staging; a stored-data integrity check was performed. `SOURCE_MANIFEST.json` records the source path and SHA-256 of every copied file, and source copies carry maintainer comments; the transformations and original hashes are recorded. One legacy README has host links converted to relative links. The original source trees and R2 are unchanged.
+
+`chaos4d_compare_16bit/` and `hd_chaos_project/` retain their original package paths, configuration, scripts, tests and original project dependency declarations. They are historical independent implementations, not interchangeable with one another or with the current paper experiment. Their original documentation and output claims are historical, not newly verified. The root requirements files are R2 candidate bounds rather than a tested lock; `hd_chaos_project/requirements.txt` is a historical machine inventory and is not a portable lock. Run the projects in separate processes to avoid colliding package names.
+
+The author-identified `golden_prng.py` and `golden_371.so` are adjacent in `hd_chaos_project/hw/src_371/`; the wrapper copied from that project has the same SHA-256 as the author-identified external copy, and the binary is copied from that external source. The library is a precompiled Linux x86-64 binary; its C source is unavailable, so rebuilding it from source is not supported. The binary was not loaded or executed.
+
+Generated results, figures, virtual environments, caches, editor settings, NIST SP 800-22 vendor suite and other third-party/vendor bundles are excluded. NIST runners and related tests therefore need an independently obtained compatible NIST suite; other scripts can require historical input data, external tools, GUI support, fonts, or original environment dependencies which are not included or established here. These copies do not establish that every entry point runs in a new environment. No experiment was run.
+
+`experiments_rev1_alignment/` is the selected R2 software subtree for the current experiment, with maintainer comments added, including source, plotting helpers, configurations and tests. `stored_data.py` is also copied from R2 to preserve its documented wrapper. The stored-data adapter dependencies and archived data are supplied in this candidate; its integrity-only validate command was checked. No plotting or scientific calculation was run.
+
+`prng371/` provides the author-identified wrapper and shared library together in a standalone location; they match the copies in `hd_chaos_project/hw/src_371/`.

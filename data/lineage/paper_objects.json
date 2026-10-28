@@ -1,0 +1,538 @@
+{
+  "paper_source_sha256": "5927a817097c448a00838763184a2519e1b40c6caa95f6f9408148286cba2b8e",
+  "figures": 8,
+  "tables": 8,
+  "entries": [
+    {
+      "label": "fig:research-framework",
+      "kind": "figure",
+      "title": "Figure 1: three-stage research framework",
+      "line": 138,
+      "environment_sha256": "2146d7a1250693c4121c6daf72b360bed65ac7be4f7838d211c491129edb2ad6",
+      "status": "TRACED_STATIC",
+      "render_paths": [
+        "PAPER2025/submission_csf/upload_package/figures/research_framework/golden_range_si_inset.pdf"
+      ],
+      "source_paths": [
+        "PAPER2025/submission_csf/upload_package/pre_art_csf.tex",
+        "PAPER2025/experiments_rev1_alignment/scripts/replot_original_style.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/original_plotting/golden_range.py"
+      ],
+      "data_paths": [
+        "PAPER2025/experiments_rev1_alignment/results/expB_golden_range/golden_range_si.csv"
+      ],
+      "audit_paths": [
+        "PAPER2025/experiments_rev1_alignment/audit/plot_style_rework/reworked_figure_hashes.txt",
+        "PAPER2025/experiments_rev1_alignment/audit/plot_style_rework/source_map.md",
+        "PAPER2025/submission_csf/review/UPLOAD_PACKAGE_MANIFEST.md",
+        "PAPER2025/submission_csf/review/phase_mr17/MR17_FIGURE1_BEFORE_AFTER.md",
+        "PAPER2025/submission_csf/review/phase_mr17/MR17_INDEPENDENT_AUDIT.md"
+      ],
+      "notes": "Actual framework is inline TikZ in current main; packaged research_framework.tikz is inactive. SI inset is byte-exact renamed EPS-converted PDF from rev1 plot-style rework, not figure2_si.pdf and not latest B2 style. No raw experiment CSV supports the conceptual arrows. Embedded illustrative bit rows are schematic, not measured data."
+    },
+    {
+      "label": "tab:r1cs-recommended-parameters",
+      "kind": "table",
+      "title": "Table 1: recommended R1-CS configurations",
+      "line": 851,
+      "environment_sha256": "f66d169e75445c59f5c66cd6e2fd7a9b1b6c1e4e8b07f9f412a857009606da73",
+      "status": "ANALYTICAL_TRACE",
+      "render_paths": [],
+      "source_paths": [
+        "PAPER2025/submission_csf/upload_package/pre_art_csf.tex",
+        "PAPER2025/experiments_rev1_alignment/src/r1ly_rev1.py"
+      ],
+      "data_paths": [
+        "PAPER2025/experiments_rev1_alignment/configs/recommended_parameters.csv"
+      ],
+      "audit_paths": [
+        "PAPER2025/experiments_rev1_alignment/audit/semantic_alignment.md",
+        "PAPER2025/submission_csf/review/phase_mr10/MR10_THEORY_SCOPE_AND_NAMING_REVIEW.md",
+        "PAPER2025/submission_csf/review/phase_mr10/MR10_INDEPENDENT_AUDIT.md"
+      ],
+      "notes": "Current table derives from current recommended-family formulas and Algorithm R1-CS, not an experiment. Config CSV has A=371 discriminants; current table explicitly evaluates discriminant at A=271. CSV is parameter cross-reference, not direct byte/numeric table export. Preserve this distinction; do not overwrite current discriminants with CSV values."
+    },
+    {
+      "label": "fig:golden-range-metrics",
+      "kind": "figure",
+      "title": "Figure 2: Golden-Range complexity",
+      "line": 1306,
+      "environment_sha256": "ae00af9229034d7f3b4c47df073b643a7f87994494a69c3b420b47cff62720df",
+      "status": "TRACED_STATIC",
+      "render_paths": [
+        "PAPER2025/submission_csf/upload_package/figures/scientific_publication_b2/figure2_legend.pdf",
+        "PAPER2025/submission_csf/upload_package/figures/scientific_publication_b2/figure2_se.pdf",
+        "PAPER2025/submission_csf/upload_package/figures/scientific_publication_b2/figure2_fe.pdf",
+        "PAPER2025/submission_csf/upload_package/figures/scientific_publication_b2/figure2_pe.pdf",
+        "PAPER2025/submission_csf/upload_package/figures/scientific_publication_b2/figure2_si.pdf"
+      ],
+      "source_paths": [
+        "PAPER2025/experiments_rev1_alignment/scripts/restyle_phase_b2_figures.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/restyle_publication_figures.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/original_plotting/golden_range.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/original_plotting/high_dim.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/tasks_rev1.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/run_all.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/aggregate_results.py",
+        "PAPER2025/experiments_rev1_alignment/src/rev1_common.py",
+        "PAPER2025/experiments_rev1_alignment/src/r1ly_rev1.py",
+        "PAPER2025/experiments_rev1_alignment/src/chaos_maps/proposed_rev1.py"
+      ],
+      "data_paths": [
+        "PAPER2025/experiments_rev1_alignment/results/expB_golden_range/golden_range_se.csv",
+        "PAPER2025/experiments_rev1_alignment/results/expB_golden_range/golden_range_fe.csv",
+        "PAPER2025/experiments_rev1_alignment/results/expB_golden_range/golden_range_pe.csv",
+        "PAPER2025/experiments_rev1_alignment/results/expB_golden_range/golden_range_si.csv"
+      ],
+      "audit_paths": [
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_restructuring/data_integrity.json",
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_restructuring/reproducibility.json",
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_restructuring/csv_and_pdf_path_checks.json",
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_restructuring/validation.json",
+        "PAPER2025/experiments_rev1_alignment/audit/semantic_alignment.md",
+        "PAPER2025/experiments_rev1_alignment/audit/validation_report.md",
+        "PAPER2025/experiments_rev1_alignment/audit/copied_source_hashes.txt",
+        "PAPER2025/experiments_rev1_alignment/results/run_status.json",
+        "PAPER2025/experiments_rev1_alignment/results/aggregate_report.json"
+      ],
+      "notes": "B2 renderer supplies current native panels and figure2 legend. Scientific generation is historical experiment B; current review only hashes/reads. Latest figure2 panels equal upstream B2 deployment bytes."
+    },
+    {
+      "label": "tab:Dyna-Per-high-dimensional-family",
+      "kind": "table",
+      "title": "Table 2: dimension scalability",
+      "line": 1337,
+      "environment_sha256": "431eaccdec9800354f78ced13e3e137029c07eec10a958c5176b1994f1f0cae7",
+      "status": "TRACED_STATIC",
+      "render_paths": [],
+      "source_paths": [
+        "PAPER2025/experiments_rev1_alignment/scripts/tasks_rev1.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/run_all.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/aggregate_results.py",
+        "PAPER2025/experiments_rev1_alignment/src/rev1_common.py",
+        "PAPER2025/experiments_rev1_alignment/src/r1ly_rev1.py",
+        "PAPER2025/experiments_rev1_alignment/src/chaos_maps/proposed_rev1.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/export_tables.py"
+      ],
+      "data_paths": [
+        "PAPER2025/experiments_rev1_alignment/results/expD_dimension_scalability/dimension_metrics_summary.csv",
+        "PAPER2025/experiments_rev1_alignment/results/expD_dimension_scalability/dimension_metrics_detailed.csv",
+        "PAPER2025/experiments_rev1_alignment/configs/recommended_parameters.csv"
+      ],
+      "audit_paths": [
+        "PAPER2025/experiments_rev1_alignment/audit/semantic_alignment.md",
+        "PAPER2025/experiments_rev1_alignment/audit/validation_report.md",
+        "PAPER2025/experiments_rev1_alignment/audit/copied_source_hashes.txt",
+        "PAPER2025/experiments_rev1_alignment/results/run_status.json",
+        "PAPER2025/experiments_rev1_alignment/results/aggregate_report.json",
+        "PAPER2025/submission_csf/review/phase_c3_publication_table_harmonization/target_cell_preservation.json",
+        "PAPER2025/submission_csf/review/phase_mr17/MR17_INDEPENDENT_AUDIT.md"
+      ],
+      "notes": "Nine rows use D family protocol, six-decimal rounding of lyap_max,se_mean,fe_mean,si_mean,pe_mean. Current D n=4 lambda 8.608883 differs from E comparison 8.568068 by initialization protocol; both retained. Current table is inline after layout changes; exporter is origin, not exact current formatting."
+    },
+    {
+      "label": "fig:lyapunov-combined",
+      "kind": "figure",
+      "title": "Figure 3: two-context Lyapunov comparison",
+      "line": 1393,
+      "environment_sha256": "4e138aeeb4baecaa446d0232fc1ab718fce6604510964390f43d7ddb34bae7f0",
+      "status": "TRACED_STATIC",
+      "render_paths": [
+        "PAPER2025/submission_csf/upload_package/figures/scientific_publication_b2/figure2_le.pdf",
+        "PAPER2025/submission_csf/upload_package/figures/scientific_publication_b2/figure3_le.pdf"
+      ],
+      "source_paths": [
+        "PAPER2025/experiments_rev1_alignment/scripts/restyle_phase_b2_figures.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/restyle_publication_figures.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/original_plotting/golden_range.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/original_plotting/high_dim.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/restyle_lyapunov_comparison_bars.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/tasks_rev1.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/run_all.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/aggregate_results.py",
+        "PAPER2025/experiments_rev1_alignment/src/rev1_common.py",
+        "PAPER2025/experiments_rev1_alignment/src/r1ly_rev1.py",
+        "PAPER2025/experiments_rev1_alignment/src/chaos_maps/proposed_rev1.py"
+      ],
+      "data_paths": [
+        "PAPER2025/experiments_rev1_alignment/results/expB_golden_range/golden_range_le.csv",
+        "PAPER2025/experiments_rev1_alignment/results/expE_high_dim_literature/high_dim_all_methods_summary.csv"
+      ],
+      "audit_paths": [
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_restructuring/data_integrity.json",
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_restructuring/reproducibility.json",
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_restructuring/csv_and_pdf_path_checks.json",
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_restructuring/validation.json",
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_bars_update/data_integrity.json",
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_bars_update/predeployment_export_checks.json",
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_bars_update/validation.json",
+        "PAPER2025/submission_csf/review/PHASE_B2_LYAPUNOV_BAR_CHART_UPDATE.md",
+        "PAPER2025/experiments_rev1_alignment/audit/semantic_alignment.md",
+        "PAPER2025/experiments_rev1_alignment/audit/validation_report.md",
+        "PAPER2025/experiments_rev1_alignment/audit/copied_source_hashes.txt",
+        "PAPER2025/experiments_rev1_alignment/results/run_status.json",
+        "PAPER2025/experiments_rev1_alignment/results/aggregate_report.json"
+      ],
+      "notes": "Panel (a) uses B2 line renderer. Panel (b) is the later bars renderer restyle_lyapunov_comparison_bars.py, superseding only figure3_le.pdf from B2 line renderer. Exactly 5 methods x 9 dimensions, field lambda_max in E summary. Never regenerate panel (b) from original B2 line script alone or D table. Current TeX assembles native panels; standalone lyapunov_combined.pdf is not a live include."
+    },
+    {
+      "label": "fig:high-dimensional-comparison",
+      "kind": "figure",
+      "title": "Figure 4: five-generator complexity",
+      "line": 1410,
+      "environment_sha256": "785eb3bbe5d2008674da097f447f38ef6451b66acc521effab191b16744a875a",
+      "status": "TRACED_STATIC",
+      "render_paths": [
+        "PAPER2025/submission_csf/upload_package/figures/scientific_publication_b2/figure3_legend.pdf",
+        "PAPER2025/submission_csf/upload_package/figures/scientific_publication_b2/figure3_se.pdf",
+        "PAPER2025/submission_csf/upload_package/figures/scientific_publication_b2/figure3_fe.pdf",
+        "PAPER2025/submission_csf/upload_package/figures/scientific_publication_b2/figure3_pe.pdf",
+        "PAPER2025/submission_csf/upload_package/figures/scientific_publication_b2/figure3_si.pdf"
+      ],
+      "source_paths": [
+        "PAPER2025/experiments_rev1_alignment/scripts/restyle_phase_b2_figures.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/restyle_publication_figures.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/original_plotting/golden_range.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/original_plotting/high_dim.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/tasks_rev1.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/run_all.py",
+        "PAPER2025/experiments_rev1_alignment/scripts/aggregate_results.py",
+        "PAPER2025/experiments_rev1_alignment/src/rev1_common.py",
+        "PAPER2025/experiments_rev1_alignment/src/r1ly_rev1.py",
+        "PAPER2025/experiments_rev1_alignment/src/chaos_maps/proposed_rev1.py",
+        "PAPER2025/experiments_rev1_alignment/src/chaos_maps/literature_high_dim.py"
+      ],
+      "data_paths": [
+        "PAPER2025/experiments_rev1_alignment/results/expE_high_dim_literature/high_dim_all_methods_summary.csv",
+        "PAPER2025/experiments_rev1_alignment/results/expE_high_dim_literature/high_dim_all_methods_detailed.csv"
+      ],
+      "audit_paths": [
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_restructuring/data_integrity.json",
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_restructuring/reproducibility.json",
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_restructuring/csv_and_pdf_path_checks.json",
+        "PAPER2025/submission_csf/review/phase_b2_lyapunov_restructuring/validation.json",
+        "PAPER2025/experiments_rev1_alignment/audit/semantic_alignment.md",
+        "PAPER2025/experiments_rev1_alignment/audit/validation_report.md",
+        "PAPER2025/experiments_rev1_alignment/audit/copied_source_hashes.txt",
+        "PAPER2025/experiments_rev1_alignment/results/run_status.json",
+        "PAPER2025/experiments_rev1_alignment/results/aggregate_report.json"
+      ],
+      "notes": "Current E means, not retired seven-system A comparison. Five methods, n=4..12; B2 native panels and shared legend. Historical legacy Zang and Yao n11/12 saved CSV rows were stale according to 2026-09-09 audit; use rev1 E CSV as current source."
+    },
+    {
+      "label": "tab:complexity-arithmetic",
+      "kind": "table",
+      "title": "Table 3: analytical arithmetic comparison",
+      "line": 1475,
+      "environment_sha256": "39e79dbb9056a2c07aa826d6b6dac23571d05c5373a5471182da66792ae92dff",
+      "status": "ANALYTICAL_TRACE_PROVENANCE_REVIEW",
+      "render_paths": [],
+      "source_paths": [
+        "PAPER2025/submission_csf/upload_package/pre_art_csf.tex",
+        "PAPER2025/submission_csf/upload_package/gn_refs_rev1.bib",
+        "PYTHON_PROGRAM/chaos4d_compare_16bit/chaos_maps/uruk_4d_dcm.py",
+        "PYTHON_PROGRAM/chaos4d_compare_16bit/chaos_maps/idhnn_4d.py",
+        "PYTHON_PROGRAM/chaos4d_compare_16bit/chaos_maps/mhm_4d.py",
+        "PYTHON_PROGRAM/chaos4d_compare_16bit/chaos_maps/ndcs_4d.py",
+        "PYTHON_PROGRAM/chaos4d_compare_16bit/chaos_maps/mprc_4d.py",
+        "PYTHON_PROGRAM/chaos4d_compare_16bit/chaos_maps/mslc_4d.py",
+        "PYTHON_PROGRAM/chaos4d_compare_16bit/chaos_maps/hccdm_4d.py",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/source_snapshot/prng_top.cpp",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/source_snapshot/chaos_core.h",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/source_snapshot/chaos_params.h",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/source_snapshot/shift_mul.h"
+      ],
+      "data_paths": [],
+      "audit_paths": [
+        "PAPER2025/table_figure_data_lineage.md",
+        "PAPER2025/submission_csf/review/phase_mr14/MR14_IMPLEMENTATION_COMPLEXITY_LINEAGE.md",
+        "PAPER2025/submission_csf/review/phase_mr14/fpga/MR14_FPGA_IMPACT_AND_IMPLEMENTATION_LINEAGE.md"
+      ],
+      "notes": "Manual counts from cited equations and implementation inspection, no CSV measurement. Seven reference rows remain current as arithmetic comparisons even though seven-system 4D dynamical plots/tables are retired. Citation/local implementation chain does not establish permission to redistribute original papers/code. Counts are not baseline FPGA measurements."
+    },
+    {
+      "label": "tab:runtime-canonical-state",
+      "kind": "table",
+      "title": "Table 4: canonical state requirements",
+      "line": 1544,
+      "environment_sha256": "dc8b9496beb6ca14e398fc2f480558be46451b387239bffc7b0c676fb71f6115",
+      "status": "ANALYTICAL_TRACE",
+      "render_paths": [],
+      "source_paths": [
+        "PAPER2025/submission_csf/upload_package/pre_art_csf.tex",
+        "PAPER2025/submission_csf/review/phase_mr11/theory/check_state_arithmetic.py"
+      ],
+      "data_paths": [
+        "PAPER2025/submission_csf/review/phase_mr11/theory/MR11_THEORY_STATE_ROWS.csv",
+        "PAPER2025/submission_csf/review/phase_mr11/theory/MR11_THEORY_STATIC_ARITHMETIC.json"
+      ],
+      "audit_paths": [
+        "PAPER2025/submission_csf/review/phase_mr11/MR11_INDEPENDENT_AUDIT.md",
+        "PAPER2025/submission_csf/review/phase_mr14/MR14_IMPLEMENTATION_COMPLEXITY_LINEAGE.md",
+        "PAPER2025/submission_csf/review/phase_mr17/MR17_INDEPENDENT_AUDIT.md"
+      ],
+      "notes": "Static counts n current + n-2 history = 2n-2 words; 16 bits/word. Totals across independent n4..12 contexts:72+54=126 words/2016 bits. Historical arithmetic record is sufficient origin; no hardware experiment or current checker execution. Old checker seals an old manuscript hash, so do not treat it as a current executable check without a new authorized scope."
+    },
+    {
+      "label": "fig:runtime-core-architecture",
+      "kind": "figure",
+      "title": "Figure 5: conceptual configurable core",
+      "line": 1608,
+      "environment_sha256": "3553aadd15d649ccc2554a681a3664e9e015f1361d50c27ac4140ab6a492d862",
+      "status": "CONCEPTUAL_TRACE",
+      "render_paths": [
+        "PAPER2025/submission_csf/upload_package/figures/runtime_dimension_core_architecture.tex"
+      ],
+      "source_paths": [
+        "PAPER2025/submission_csf/upload_package/figures/runtime_dimension_core_architecture.tex",
+        "PAPER2025/submission_csf/upload_package/pre_art_csf.tex"
+      ],
+      "data_paths": [
+        "PAPER2025/submission_csf/review/phase_mr11/theory/MR11_THEORY_STATIC_ARITHMETIC.json"
+      ],
+      "audit_paths": [
+        "PAPER2025/submission_csf/review/phase_mr10/MR10_RUNTIME_CORE_ARCHITECTURE_ANALYSIS.md",
+        "PAPER2025/submission_csf/review/phase_mr12/MR12_INDEPENDENT_AUDIT.md",
+        "PAPER2025/submission_csf/review/phase_mr17/MR17_FIGURE5_6_7_COMPARISON.md",
+        "PAPER2025/submission_csf/review/phase_mr17/MR17_INDEPENDENT_AUDIT.md"
+      ],
+      "notes": "Current input is native TikZ/TeX, latest narrow MR17 layout. Conceptual service/update/commit architecture; does not have raw FPGA results, a netlist, runtime switching measurements or a DFX implementation. Preserve exclusion of canonical payload from complete implementation state."
+    },
+    {
+      "label": "tab:proposed-4d-map-resource",
+      "kind": "table",
+      "title": "Table 5: Mode I generator resource",
+      "line": 1718,
+      "environment_sha256": "a8b65b1abe5fe64c9d15998818f2bca3fe567b84882a6660ce92ac68693348e3",
+      "status": "TRACED_STATIC",
+      "render_paths": [],
+      "source_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/source_snapshot/chaos_params.h",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/source_snapshot/prng_wrapper.v",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/source_snapshot/prng_top.h",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/source_snapshot/shift_mul.h",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/source_snapshot/prng_top.cpp",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/source_snapshot/chaos_core.h",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/scripts_snapshot/run_vivado_impl.tcl",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/scripts_snapshot/run_hls.tcl"
+      ],
+      "data_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/metrics/map_minimal_delta_metrics.json",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/reports/utilization_impl.rpt",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/reports/timing_impl.rpt",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/reports/route_status.rpt",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/reports/prng_top_csynth.rpt"
+      ],
+      "audit_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/audit/MAP_MINIMAL_DELTA_VS_FULL_PRNG_CONSISTENCY.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/audit/MAP_MINIMAL_DELTA_FROM_FULL_PRNG_AUDIT.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/proposed_4d_map_minimal_delta_from_full_prng_20260709_160332/audit/MAP_MINIMAL_DELTA_SOURCE_DIFF.md",
+        "PAPER2025/submission_csf/review/phase_dfx_r1/DFX_R1_SOURCE_LINEAGE.md",
+        "PAPER2025/submission_csf/review/PHASE_D1A_FIGURE_TABLE_TEXT_CONSISTENCY_AUDIT.md"
+      ],
+      "notes": "Exact current 383 LUT/374 FF/1 DSP/0 BRAM/1 BUFG tuple comes from minimal-delta 20260709_160332. Historical lineage entry21 points to superseded 621/427 nonrot 144939 run. Raw utilization report header says Fully Placed; companion timing is Routed. Record both without silently upgrading raw report stage. Wrapper/Mode I cost is not pure recurrence-core cost or mixer incremental cost."
+    },
+    {
+      "label": "fig:prng371-design-block-diagram",
+      "kind": "figure",
+      "title": "Figure 6: PRNG-371 datapath",
+      "line": 1805,
+      "environment_sha256": "f7a59a3f94aa32904332e6efd2685a468eef6e10a77fbf2e9756b4a57bdc0f5e",
+      "status": "SCHEMATIC_TRACE",
+      "render_paths": [],
+      "source_paths": [
+        "PAPER2025/submission_csf/upload_package/pre_art_csf.tex",
+        "PYTHON_PROGRAM/prng/hw/src_371/prng_top.cpp",
+        "PYTHON_PROGRAM/prng/hw/src_371/prng_top.h",
+        "PYTHON_PROGRAM/prng/hw/src_371/chaos_core.h",
+        "PYTHON_PROGRAM/prng/hw/src_371/chaos_params.h",
+        "PYTHON_PROGRAM/prng/hw/src_371/shift_mul.h",
+        "PYTHON_PROGRAM/prng/hw/src_371/golden_prng.py"
+      ],
+      "data_paths": [],
+      "audit_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/reference/REFERENCE_LINEAGE_REPORT.md",
+        "PAPER2025/submission_csf/review/phase_mr17/MR17_FIGURE5_6_7_COMPARISON.md",
+        "PAPER2025/submission_csf/review/phase_mr17/MR17_INDEPENDENT_AUDIT.md"
+      ],
+      "notes": "Actual current source is inline TikZ in main; root lineage points to earlier standalone prng371_design.tikz, now inactive. Preserve word4 at bits63:48 through word1 at15:0; two-word ROTL64(17,43) XOR mixer; illustrative rotation row is schematic, not measured bitstream."
+    },
+    {
+      "label": "tab:prng371-implementation-summary-power",
+      "kind": "table",
+      "title": "Table 6: full datapath implementation and estimated power",
+      "line": 1861,
+      "environment_sha256": "daf6f74bc0b006a662dfd2c32b6d0e0ff1ee16673bf3b32b958ba3ae1c69cced",
+      "status": "TRACED_STATIC",
+      "render_paths": [],
+      "source_paths": [
+        "PYTHON_PROGRAM/prng/hw/src_371/prng_top.cpp",
+        "PYTHON_PROGRAM/prng/hw/src_371/prng_top.h",
+        "PYTHON_PROGRAM/prng/hw/src_371/chaos_core.h",
+        "PYTHON_PROGRAM/prng/hw/src_371/chaos_params.h",
+        "PYTHON_PROGRAM/prng/hw/src_371/shift_mul.h",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/power_prng371_datapath_100mhz_20260709/scripts/report_power_from_existing_dcp.tcl"
+      ],
+      "data_paths": [
+        "PYTHON_PROGRAM/prng/hw/reports/chaos_prng_371_pnr/utilization_impl.rpt",
+        "PYTHON_PROGRAM/prng/hw/reports/chaos_prng_371_pnr/timing_impl.rpt",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/power_prng371_datapath_100mhz_20260709/audit/PRNG371_POWER_METRICS_SUMMARY.json",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/power_prng371_datapath_100mhz_20260709/reports/power_prng371_datapath_100mhz_routed_default_activity.rpt",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/power_prng371_datapath_100mhz_20260709/reports/timing_confirm.rpt",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/power_prng371_datapath_100mhz_20260709/reports/utilization_confirm.rpt"
+      ],
+      "audit_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/power_prng371_datapath_100mhz_20260709/audit/PRNG371_POWER_DCP_MISSING_REPORT.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/power_prng371_datapath_100mhz_20260709/audit/PRNG371_POWER_REPORT_GENERATION_AUDIT.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/power_prng371_datapath_100mhz_20260709/audit/PRNG371_POWER_EVIDENCE_SUMMARY.json",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/power_prng371_datapath_100mhz_20260709/audit/PRNG371_POWER_PAPER_CLAIM_BOUNDARY.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/power_prng371_datapath_100mhz_20260709/audit/PRNG371_POWER_METRICS_SUMMARY.json",
+        "PYTHON_PROGRAM/prng/prng_experiment/fpga_physical_validation/power_prng371_datapath_100mhz_20260709/logs/report_power_run.log"
+      ],
+      "notes": "Full datapath 500 LUT/370 FF,100MHz,64bits/cycle,6.4Gb/s, WNS0.549/WHS0.106; default vectorless estimated total0.126W/dynamic0.020W/static0.106W. No SAIF/VCD; medium confidence; no board-power measurement. DCP path referenced by recorded summary must be handled as external tool dependency, not inferred present from old report."
+    },
+    {
+      "label": "tab:prng-recent-primary-compact",
+      "kind": "table",
+      "title": "Table 7: recent published FPGA PRNG comparison",
+      "line": 1944,
+      "environment_sha256": "6841a0d37ebc71ff17196372c4bd4a8a6ee96cf93bbca69fe6385bd00b36d12b",
+      "status": "TRACE_WITH_DOCUMENTED_CSV_EXCEPTION",
+      "render_paths": [],
+      "source_paths": [
+        "PAPER2025/submission_csf/upload_package/pre_art_csf.tex",
+        "PAPER2025/submission_csf/upload_package/gn_refs_rev1.bib"
+      ],
+      "data_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/paper_assets/prng_section/fpga_prng_primary_source_data.csv"
+      ],
+      "audit_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/paper_assets/prng_section/FPGA_PRNG_PRIMARY_SOURCE_EVIDENCE_MAP.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/paper_assets/prng_section/FPGA_PRNG_PRIMARY_SOURCE_ANALYSIS.md",
+        "PAPER2025/table_figure_data_lineage.md",
+        "PAPER2025/submission_csf/review/phase_mr17/MR17_INDEPENDENT_AUDIT.md"
+      ],
+      "notes": "Manual literature table. Bao DTM-HNN current LUT3057/FF4398 follows source Table5; historical CSV reverses these. Current normalized values0.00155/0.00108 and note explicitly preserve distinction; CSV alone cannot reproduce current row without documented correction. 473Mb/s generation differs from432Mb/s measured transmission. Different devices/output conventions limit cross-study comparability. Source PDFs should be referenced, not presumed redistributable."
+    },
+    {
+      "label": "tab:prng371-nist-summary",
+      "kind": "table",
+      "title": "Table 8: software PRNG NIST results",
+      "line": 2043,
+      "environment_sha256": "02a7011432dc28d5e9416c0fe697f2fc45bc46d9456dea439e0d66614056fe0e",
+      "status": "TRACED_STATIC",
+      "render_paths": [],
+      "source_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/generate_prng371_nist_input.py",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/parse_nist_results.py",
+        "PYTHON_PROGRAM/prng/hw/src_371/golden_prng.py",
+        "PYTHON_PROGRAM/prng/hw/src_371/golden_371.so"
+      ],
+      "data_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/summary/nist_summary.csv",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/summary/nonoverlapping_template_family_summary.csv",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/official_run/finalAnalysisReport.txt",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/official_run/summary.json",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/config_official_100x1000000.json",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/input_sha256.txt",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/input/prng371_warmup2000_100x1000000.asc",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/input/prng371_warmup2000_100x1000000.bin",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/official_run/raw_results/NonOverlappingTemplate/results.txt",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/official_run/raw_results/NonOverlappingTemplate/stats.txt",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/official_run/raw_results/NonOverlappingTemplate/data131.txt"
+      ],
+      "audit_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/README_PROVENANCE.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/GENERATION_REPORT.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/official_run/RUN_COMMANDS.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/official_run/NIST_OFFICIAL_RUN_LOG.txt",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/summary/NONOVERLAPPING_TEMPLATE_FLAG_AUDIT.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/NIST_STS_BUILD_REPORT.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/randomness/prng371_warmup2000/NIST_STS_ENVIRONMENT_CHECK.md"
+      ],
+      "notes": "Existing software golden stream,100x1e6 bits,warmup2000.17 displayed rows summarize188 report rows. NonOverlapping148 subtests include1 flagged95/100,p0.816537; mean0.507384,98.878/100. Excursions eligible52. Not FPGA-output randomness or cryptographic guarantee. GENERATION_REPORT golden-reference-match false points to known historical warmup1000 comparison, not automatically a failed current input lineage; README and updated reference report distinguish this."
+    },
+    {
+      "label": "fig:cooja-topology",
+      "kind": "figure",
+      "title": "Figure 7: Cooja topology",
+      "line": 2141,
+      "environment_sha256": "05e9d33cf084dc2fbbf9d628cae57e9f4b6e83b38f850c672bf4af30fcc39935",
+      "status": "SCHEMATIC_TRACE_WITH_IMAGE_PROVENANCE_GAP",
+      "render_paths": [
+        "PAPER2025/submission_csf/upload_package/figures/cooja_application/tikz/cooja_topology.tikz",
+        "PAPER2025/submission_csf/upload_package/figures/cooja_application/figure_sub_original.png",
+        "PAPER2025/submission_csf/upload_package/figures/cooja_application/figure_sub_encrypted.png",
+        "PAPER2025/submission_csf/upload_package/figures/cooja_application/figure_sub_decrypted.png"
+      ],
+      "source_paths": [
+        "PAPER2025/submission_csf/upload_package/figures/cooja_application/tikz/cooja_topology.tikz",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/04_program_list/prng371-udp-demo.csc",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/04_program_list/sensor-node.c",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/04_program_list/gateway-node.c",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/04_program_list/relay-node.c",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/04_program_list/capture_relay_images.py",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/04_program_list/prng371.c",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/04_program_list/prng371.h"
+      ],
+      "data_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/raw_logs/cooja_environment.txt",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/raw_logs/gateway_bitmap.json"
+      ],
+      "audit_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/COOJA_STEP3A_FINAL_ACCEPTANCE_NOTE.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/COOJA_DATA_PATH_AUDIT.md",
+        "PAPER2025/submission_csf/review/phase_mr17/MR17_FIGURE5_6_7_COMPARISON.md",
+        "PAPER2025/submission_csf/review/phase_mr17/MR17_INDEPENDENT_AUDIT.md"
+      ],
+      "notes": "Current TikZ, not old figure_cooja_topology.png or draw_topologies.py. Recursive thumbnails require original/encrypted/decrypted PNG. Configured UDGM loss15%,8 auxiliary export motes, host collection, software PRNG; FPGA remains separate realization. Diagram itself is conceptual architecture backed by existing source/configuration, not captured topology photograph."
+    },
+    {
+      "label": "fig:cooja-packet-loss-reconstruction",
+      "kind": "figure",
+      "title": "Figure 8: Cooja image panels",
+      "line": 2182,
+      "environment_sha256": "31e1ce1db0a7b3d7bef29c3ec2838dcfcc4744e6165cc2e3bd6877561c564d32",
+      "status": "TRACE_WITH_TEST_IMAGE_PROVENANCE_GAP",
+      "render_paths": [
+        "PAPER2025/submission_csf/upload_package/figures/cooja_application/figure_sub_original.png",
+        "PAPER2025/submission_csf/upload_package/figures/cooja_application/figure_sub_encrypted.png",
+        "PAPER2025/submission_csf/upload_package/figures/cooja_application/figure_sub_lossmask.png",
+        "PAPER2025/submission_csf/upload_package/figures/cooja_application/figure_sub_decrypted.png"
+      ],
+      "source_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/generate_evidence_and_assets.py",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/04_program_list/image_data.h",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/04_program_list/prng371.c",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/04_program_list/prng371.h",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/04_program_list/libprng371.so",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/04_program_list/capture_relay_images.py"
+      ],
+      "data_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/paper_figures/original new.bmp",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/03_results/images/original.bmp",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/03_results/images/encrypted.bmp",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/03_results/images/cooja_decrypted.png",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/03_results/loss/loss_mask.png",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/raw_logs/gateway_bitmap.json",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/raw_logs/gateway_serial.log",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/raw_logs/cooja_loglistener_manual_export.log",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/raw_logs/cooja_radiologger_manual_export.pcap",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/raw_logs/cooja_stdout_real.log",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/raw_logs/python_test.log",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/03_results/metrics.csv",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/03_results/metrics.json",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/03_results/loss/gateway_received_bitmap.txt",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/03_results/loss/lost_chunks.txt"
+      ],
+      "audit_paths": [
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/IMAGE_UPDATE_NOTE.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/COOJA_STEP3A_FINAL_ACCEPTANCE_NOTE.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/COOJA_MANUAL_EXPORT_EVIDENCE_REPORT.md",
+        "PYTHON_PROGRAM/prng/prng_experiment/iot_udp/cooja_experiment_materials/COOJA_PACKET_LOSS_RECOMPUTE_REPORT.md",
+        "PAPER2025/submission_csf/review/PHASE_D1A_FIGURE_TABLE_TEXT_CONSISTENCY_AUDIT.md"
+      ],
+      "notes": "All4 current PNG equal 08_paper_assets files byte-for-byte. Actual generator lines138-172 reconstructs offline using image_data.h, recorded gateway bitmap, and libprng371.so; lines331-360 plot derived arrays. Existing metrics explicitly say PC-side offline reconstruction. Recorded223/33 bitmap supports packet loss; paper pixels are derived offline outputs, not direct FPGA or on-mote capture. AI synthetic input asserted by current caption; no generator/model/prompt/license/author-rights record located in inspected image-update chain. No new metric calculation or image generation was performed."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+map:
+  name: NDCS4DMap
+  family: 4D-NDCS
+  semantics: natural_mod1_float_update_then_u16_quantization
+  init_float: [0.1, 0.2, 0.3, 0.4]
+  P1: 199
+  P2: 33
+  P3: 99
+  P4: 43
+  P5: 193
+  P6: 2

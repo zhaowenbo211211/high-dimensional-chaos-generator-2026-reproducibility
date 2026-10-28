@@ -1,0 +1,7 @@
+map:
+  name: IDHNN4DMap
+  family: 4D-IDHNN
+  semantics: float_update_safe_div_safe_tanh_safe_sin_mod1_wrap_then_u16_quantization
+  init_float: [0.1, 0.2, 0.3, 0.4]
+  C: 0.5
+  E: 1.0

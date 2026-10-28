@@ -1,0 +1,10 @@
+=== 16-bit Chaotic System Sensitivity Analysis Report ===
+
+Total iterations: 1001
+Initial distance: 1.53e-05
+Final distance: 0.9128
+Total growth factor: 6.0e+04
+First step growth: 1.1
+Average growth rate: 1.088
+Saturation at 0.5 threshold: 2
+Saturation at 0.8 threshold: 2
